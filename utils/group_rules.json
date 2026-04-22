@@ -1,0 +1,63 @@
+{
+  "_notes": [
+    "基于 ScenarioMode + 文件归属推断 group 类型",
+    "首要信号：ScenarioMode.ModeType + SubType",
+    "次要信号：GroupId 所在的 ScriptFile 名称"
+  ],
+
+  "classification_rules": [
+    {
+      "type": "main_story",
+      "primary_signal": "ScenarioMode.ModeType == 'Main' AND SubType == 'None'",
+      "script_files": ["ScenarioScriptMain1..5ExcelTable.json"],
+      "group_id_range": "11xxx (Volume 1) ~ 51xxx (Volume 5+)",
+      "count_mode_rows": 318
+    },
+    {
+      "type": "group_story",
+      "primary_signal": "ScenarioMode.SubType == 'Club' AND ModeType == 'Sub'",
+      "script_files": ["ScenarioScriptGroup1..3ExcelTable.json"],
+      "group_id_examples": [1101, 1201, 1401, 70000010],
+      "count_mode_rows": 57
+    },
+    {
+      "type": "mini_story",
+      "primary_signal": "ScenarioMode.ModeType == 'Mini'",
+      "script_files": ["ScenarioScriptField1ExcelTable.json", "ScenarioScriptContentExcelTable.json"],
+      "count_mode_rows": 7
+    },
+    {
+      "type": "event_story",
+      "primary_signal": "EventContentScenario.ScenarioGroupId references GroupId",
+      "script_files": ["ScenarioScriptEvent1..4ExcelTable.json"],
+      "group_id_examples": [10000000, 10000005, 80000001, 90000005, 10025005],
+      "count_scenario_rows": 839,
+      "_note": "Event 不在 ScenarioMode 中；由 EventContentScenario 组织，按 EventContentId 分组"
+    },
+    {
+      "type": "bond_story",
+      "primary_signal": "ScriptFile is ScenarioScriptFavor*",
+      "script_files": ["ScenarioScriptFavor1..3ExcelTable.json"],
+      "group_id_format": "CCCCCEE  (CharId 5 digits + episode 2 digits, e.g. 1000002 = Aru 10000 ep 02)",
+      "character_id_from_group": "floor(group_id / 100)",
+      "count": 698
+    },
+    {
+      "type": "momotalk",
+      "primary_signal": "在 AcademyMessanger 表中，而非 ScenarioScript",
+      "source_tables": ["AcademyMessanger1..3ExcelTable.json", "AcademyMessangerExcelTable.json"],
+      "grouped_by": "CharacterId"
+    }
+  ],
+
+  "volume_titles_jp": {
+    "1": "対策委員会編",
+    "2": "時計じかけの花のパヴァーヌ",
+    "3": "エデン条約編",
+    "4": "カルバノの兎編",
+    "5": "百花繚乱編",
+    "999": "最終編"
+  },
+
+  "unclassified_strategy": "若 GroupId 在 ScenarioScript*Field* / *Content* 中，且未被 ScenarioMode 或 EventContentScenario 引用，归入 'misc' 目录，作为附录"
+}

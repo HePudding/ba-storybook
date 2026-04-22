@@ -1,0 +1,214 @@
+{
+  "_notes": [
+    "所有 Excel JSON 顶层都是 { DataList: [...] }",
+    "日文文本字段为 TextJp / MessageJP / LocalizeJP / NameJp / FullNameJp 等，命名不统一，按表区分",
+    "Korean script directives 混在 ScriptKr 中；TextJp 本身是纯净日文（无 directive 前缀）",
+    "CharacterId 与 Excel 各表的 Id 对齐（10000=Aru, 10004=Hina 等）",
+    "Korean 角色名通过 ScenarioCharacterNameExcelTable.NameKR -> NameJP 查 Japanese name"
+  ],
+
+  "ScenarioScript": {
+    "_files": [
+      "ScenarioScriptMain1ExcelTable.json", "ScenarioScriptMain2ExcelTable.json",
+      "ScenarioScriptMain3ExcelTable.json", "ScenarioScriptMain4ExcelTable.json",
+      "ScenarioScriptMain5ExcelTable.json",
+      "ScenarioScriptGroup1ExcelTable.json", "ScenarioScriptGroup2ExcelTable.json", "ScenarioScriptGroup3ExcelTable.json",
+      "ScenarioScriptFavor1ExcelTable.json", "ScenarioScriptFavor2ExcelTable.json", "ScenarioScriptFavor3ExcelTable.json",
+      "ScenarioScriptEvent1ExcelTable.json", "ScenarioScriptEvent2ExcelTable.json", "ScenarioScriptEvent3ExcelTable.json", "ScenarioScriptEvent4ExcelTable.json",
+      "ScenarioScriptField1ExcelTable.json",
+      "ScenarioScriptContentExcelTable.json"
+    ],
+    "group_id": "GroupId",
+    "selection_group": "SelectionGroup",
+    "script_kr": "ScriptKr",
+    "text_jp": "TextJp",
+    "voice_jp": "VoiceJp",
+    "bg_name_hash": "BGName",
+    "bgm_id": "BGMId",
+    "sound": "Sound",
+    "_script_kr_format": {
+      "directive_wait": "#wait;NNN  - pause in ms",
+      "directive_place": "#place;<name>  - location label (TextJp has Jp label)",
+      "directive_title": "#title;<text>  - story title banner",
+      "directive_hidemenu": "#hidemenu / #all;hide",
+      "narration_stm": "#stm;[x,y];serial;speed;<text>  - scroll narration",
+      "narration_st": "#st;[x,y];serial;speed;<text>  - static narration",
+      "narration_na": "#na;<speaker_kr>;<text>  - narration; speaker可 ??? 或任意 KR 名",
+      "dialogue": "<pos>;<speaker_kr>;<emotion>[\\n#<pos>;<anim>[\\n#na;<text>]]  - character line, speaker in field[1]",
+      "selection": "[s] <text>  - player choice option (also in TextJp as [s] ...)",
+      "embedded_break": "#n inside text = hard newline"
+    },
+    "_selection_group_semantics": "SelectionGroup=0 = main flow (including [s] choice offers); SelectionGroup>0 = branch executed after player picks that option (rows for unselected branches also present, replayable)"
+  },
+
+  "ScenarioCharacterName": {
+    "_file": "ScenarioCharacterNameExcelTable.json",
+    "character_hash": "CharacterName",
+    "name_kr": "NameKR",
+    "nickname_kr": "NicknameKR",
+    "name_jp": "NameJP",
+    "nickname_jp": "NicknameJP",
+    "shape": "Shape",
+    "spine_prefab": "SpinePrefabName",
+    "portrait": "SmallPortrait",
+    "_note": "NameKR 可能重复（同角色不同 variant）—— 按 Kr->Jp 取首个足够；nickname 用于 club/context 区分"
+  },
+
+  "AcademyMessanger": {
+    "_files": ["AcademyMessanger1ExcelTable.json", "AcademyMessanger2ExcelTable.json", "AcademyMessanger3ExcelTable.json", "AcademyMessangerExcelTable.json"],
+    "message_group_id": "MessageGroupId",
+    "sequence_id": "Id",
+    "character_id": "CharacterId",
+    "message_condition": "MessageCondition",
+    "condition_value": "ConditionValue",
+    "pre_condition_group_id": "PreConditionGroupId",
+    "next_group_id": "NextGroupId",
+    "feedback_time_ms": "FeedbackTimeMillisec",
+    "message_type": "MessageType",
+    "image_path": "ImagePath",
+    "message_kr": "MessageKR",
+    "message_jp": "MessageJP",
+    "_message_type_values": ["Text", "Image", "Sticker", "Reply"],
+    "_condition_values": ["FavorRankUp", "None", "Choice"]
+  },
+
+  "Character": {
+    "_file": "CharacterExcelTable.json",
+    "character_id": "Id",
+    "dev_name": "DevName",
+    "school": "School",
+    "club": "Club",
+    "is_playable": "IsPlayableCharacter",
+    "is_npc": "IsNPC",
+    "scenario_character": "ScenarioCharacter",
+    "localize_etc_id": "LocalizeEtcId",
+    "weapon_localize_id": "WeaponLocalizeId"
+  },
+
+  "LocalizeCharProfile": {
+    "_file": "LocalizeCharProfileExcelTable.json",
+    "character_id": "CharacterId",
+    "full_name_jp": "FullNameJp",
+    "family_name_jp": "FamilyNameJp",
+    "family_name_ruby_jp": "FamilyNameRubyJp",
+    "personal_name_jp": "PersonalNameJp",
+    "personal_name_ruby_jp": "PersonalNameRubyJp",
+    "school_year_jp": "SchoolYearJp",
+    "character_age_jp": "CharacterAgeJp",
+    "birthday_jp": "BirthdayJp",
+    "char_height_jp": "CharHeightJp",
+    "hobby_jp": "HobbyJp",
+    "status_message_jp": "StatusMessageJp",
+    "designer_name_jp": "DesignerNameJp",
+    "illustrator_name_jp": "IllustratorNameJp",
+    "character_voice_jp": "CharacterVoiceJp",
+    "weapon_name_jp": "WeaponNameJp",
+    "weapon_desc_jp": "WeaponDescJp",
+    "profile_introduction_jp": "ProfileIntroductionJp"
+  },
+
+  "CharacterDialog": {
+    "_file": "CharacterDialogExcelTable.json",
+    "character_id": "CharacterId",
+    "costume_unique_id": "CostumeUniqueId",
+    "display_order": "DisplayOrder",
+    "dialog_category": "DialogCategory",
+    "dialog_condition": "DialogCondition",
+    "group_id": "GroupId",
+    "dialog_type": "DialogType",
+    "localize_jp": "LocalizeJP",
+    "unlock_favor_rank": "UnlockFavorRank",
+    "voice_id": "VoiceId",
+    "_key_categories": ["UILobby", "UILobbySpecial", "UILobby2", "Cafe", "CharacterGet", "UITitle", "UIWork", "UIMission", "UISchoolDungeon", "UIWeekDungeon"]
+  },
+
+  "CharacterDialogEvent": {
+    "_file": "CharacterDialogEventExcelTable.json",
+    "costume_unique_id": "CostumeUniqueId",
+    "original_character_id": "OriginalCharacterId",
+    "event_id": "EventID",
+    "dialog_category": "DialogCategory",
+    "dialog_condition": "DialogCondition",
+    "localize_jp": "LocalizeJP",
+    "scenario_group_id": "ScenarioGroupId"
+  },
+
+  "Item": {
+    "_file": "ItemExcelTable.json",
+    "item_id": "Id",
+    "rarity": "Rarity",
+    "category": "ItemCategory",
+    "localize_etc_id": "LocalizeEtcId",
+    "tags": "Tags",
+    "_favor_filter": "ItemCategory == 'Favor' 为礼物/爱用品条目"
+  },
+
+  "LocalizeEtc": {
+    "_file": "LocalizeEtcExcelTable.json",
+    "key": "Key",
+    "name_jp": "NameJp",
+    "description_jp": "DescriptionJp"
+  },
+
+  "LocalizeScenario": {
+    "_file": "LocalizeScenarioExcelTable.json",
+    "key": "Key",
+    "kr": "Kr",
+    "jp": "Jp",
+    "_note": "通用日文本地化表 (ProloSouce)"
+  },
+
+  "ScenarioMode": {
+    "_file": "ScenarioModeExcelTable.json",
+    "mode_id": "ModeId",
+    "mode_type": "ModeType",
+    "sub_type": "SubType",
+    "volume_id": "VolumeId",
+    "chapter_id": "ChapterId",
+    "episode_id": "EpisodeId",
+    "front_scenario_group_id": "FrontScenarioGroupId",
+    "back_scenario_group_id": "BackScenarioGroupId",
+    "_mode_types": ["Main", "Sub", "Mini"],
+    "_sub_types": ["None", "Club"]
+  },
+
+  "EventContentScenario": {
+    "_file": "EventContentScenarioExcelTable.json",
+    "id": "Id",
+    "event_content_id": "EventContentId",
+    "order": "Order",
+    "scenario_group_id": "ScenarioGroupId",
+    "is_recollection": "IsRecollection"
+  },
+
+  "EventContentSeason": {
+    "_file": "EventContentSeasonExcelTable.json",
+    "event_content_id": "EventContentId",
+    "name_placeholder": "Name",
+    "event_open_time": "EventContentOpenTime",
+    "_note": "Name 是未解析的 localize key (Event_Name_701 等)，实际日文名不存在于 JSON；只能用 ID fallback"
+  },
+
+  "ContentsScenario": {
+    "_file": "ContentsScenarioExcelTable.json",
+    "id": "Id",
+    "localize_id": "LocalizeId",
+    "display_order": "DisplayOrder",
+    "scenario_content_type": "ScenarioContentType",
+    "scenario_group_id": "ScenarioGroupId"
+  },
+
+  "FavorLevel": {
+    "_file": "FavorLevelExcelTable.json"
+  },
+
+  "FavorLevelReward": {
+    "_file": "FavorLevelRewardExcelTable.json",
+    "character_id": "CharacterId",
+    "favor_level": "FavorLevel"
+  },
+
+  "MemoryLobby": {
+    "_file": "MemoryLobbyExcelTable.json"
+  }
+}
