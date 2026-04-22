@@ -1,4 +1,5 @@
 raw-data/
+ba-json
 ba-json/
 __pycache__/
 *.pyc

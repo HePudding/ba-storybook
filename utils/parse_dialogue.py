@@ -25,7 +25,9 @@ RE_NA = re.compile(r"^#na\s*;\s*([^;\n]*)\s*;\s*(.*)$", re.DOTALL)
 RE_ST_OR_STM = re.compile(r"^#st(m)?\s*;[^;]*;[^;]*;[^;]*;(.*)$", re.DOTALL)
 RE_PLACE = re.compile(r"^#place\s*;\s*(.*)$", re.DOTALL)
 RE_TITLE = re.compile(r"^#title\s*;\s*(.*)$", re.DOTALL)
-RE_SELECTION = re.compile(r"^\s*\[s\]\s*(.*)$", re.DOTALL)
+RE_SELECTION = re.compile(r"^\s*\[s\d*\]\s*(.*)$", re.DOTALL)
+RE_SELECTION_LINE = re.compile(r"^\s*\[s\d*\]\s*(.*)$")
+RE_SENSEI_NARRATION = re.compile(r"^\s*\[ns\]\s*(.*)$", re.DOTALL)
 
 
 def _first_line(s: str) -> str:
@@ -40,17 +42,41 @@ def _classify_row(row: dict) -> dict[str, Any] | None:
 
     first = _first_line(script_kr).strip()
 
-    # Selection option (player choice)
+    # Sensei narration (先生内心独白)
+    m = RE_SENSEI_NARRATION.match(first)
+    if m:
+        # TextJp 也会有 "[ns] " 前缀
+        inner = text_jp
+        m2 = RE_SENSEI_NARRATION.match(inner)
+        if m2:
+            inner = m2.group(1).strip()
+        if not inner:
+            return None
+        return {"type": "narration", "speaker": "先生（心の声）", "text": inner, "voice": voice_jp}
+
+    # Selection option (player choice) - 单行或多行 [sN] 包装的选项
     m = RE_SELECTION.match(first)
     if m:
-        # TextJp 也会有 "[s] text" 前缀，去掉
-        choice_text = text_jp
-        m2 = RE_SELECTION.match(choice_text)
-        if m2:
-            choice_text = m2.group(1).strip()
-        if not choice_text:
-            return None
-        return {"type": "choice", "text": choice_text, "selection_group": row.get("SelectionGroup", 0)}
+        # TextJp 也会有 "[sN] text" 前缀；可能有多行（[s1], [s2] 并列）
+        choices: list[str] = []
+        for ln in (text_jp or "").split("\n"):
+            mm = RE_SELECTION_LINE.match(ln.strip())
+            if mm:
+                txt = mm.group(1).strip().strip('"').strip()
+                if txt:
+                    choices.append(txt)
+        if not choices:
+            # 单选项 fallback
+            choice_text = text_jp.strip().strip('"')
+            m2 = RE_SELECTION.match(choice_text)
+            if m2:
+                choice_text = m2.group(1).strip().strip('"')
+            if not choice_text:
+                return None
+            choices = [choice_text]
+        if len(choices) == 1:
+            return {"type": "choice", "text": choices[0], "selection_group": row.get("SelectionGroup", 0)}
+        return {"type": "choice_group", "options": choices}
 
     # Title banner
     m = RE_TITLE.match(first)
