@@ -1,0 +1,347 @@
+# Blue Archive 日本語ストーリー アーカイブ
+
+**データ取得日**: 2026-04-22
+**生成日時**: 2026-04-22T14:14:34.765933Z
+**データソース**: [electricgoat/ba-data @ jp branch](https://github.com/electricgoat/ba-data/tree/jp)
+
+## 統計
+
+- 総 Markdown ファイル数: **2,022**
+- 総対話行数（シナリオ）: **110,348**
+- 総 MomoTalk メッセージ数: **12,821**
+- 既知エラー数: 12
+
+### カテゴリ別
+
+| カテゴリ | ファイル数 | 対話行数 | エラー |
+|---------|-----------|---------|-------|
+| [MomoTalk](./モモトーク/) | 223 | 12821 | 0 |
+| [ミニストーリー](./ミニストーリー/) | 5 | 496 | 0 |
+| [グループストーリー](./グループストーリー/) | 53 | 4387 | 4 |
+| [キャラクターデータ (プロフィール+台詞)](./キャラクターデータ/) | 245 | 0 | 0 |
+| [主線ストーリー](./主線/) | 310 | 30829 | 8 |
+| [イベントストーリー](./イベント/) | 492 | 31846 | 0 |
+| [絆ストーリー](./絆ストーリー/) | 694 | 42790 | 0 |
+
+## ディレクトリ構造
+
+```
+ba-stories/
+├── 主線/                  # ヴォリューム→章→話 階層
+│   ├── 第0篇_プロローグ/
+│   ├── 第1篇_対策委員会編/
+│   ├── 第2篇_時計じかけの花のパヴァーヌ/
+│   ├── 第3篇_エデン条約編/
+│   ├── 第4篇_カルバノの兎編/
+│   ├── 第5篇_百花繚乱編/
+│   └── 最終編/
+├── グループストーリー/       # 部活/クラブ別エピソード
+├── イベント/                # イベント ID ごとに 1 ディレクトリ (51 events)
+├── 絆ストーリー/             # キャラクター別 絆エピソード (167 characters)
+├── ミニストーリー/           # 短編エピソード
+├── モモトーク/              # キャラクターとの SNS 対話
+└── キャラクターデータ/       # プロフィール・台詞・愛用品一覧
+```
+
+## Markdown 仕様
+
+各ファイルは YAML frontmatter 付き。本文での表現は：
+
+- `**話者**: セリフ` — キャラクター対話
+- `*ナレーション*` — 三人称ナレーション
+- `*（話者）セリフ*` — 特定キャラクターのナレーション
+- `*（先生（心の声））セリフ*` — 先生の内面独白
+- `> **先生（選択肢）**: 選項1 / 選項2` — プレイヤーの選択肢
+- `**【場所】**` — 場面切り替え
+
+Ruby 表記は `漢字（かな）` に展開。原文の `[FF6666]...[-]` などの色タグは除去。
+
+## 既知の不完全性
+
+- 主線 第1篇第3章 (Vol1 Ch3) : ScenarioMode に ID 記載があるが ScenarioScript 側に対応スクリプトなし。8 話分が空。
+- イベントタイトル: ローカライズされた日本語名がデータ内に存在せず、`event_<EventContentId>` の数値キーで表示。
+- グループストーリー のバケット名は `club_<volume>_<chapter>` 形式（実際の社団名は各ファイル内のキャラクター一覧から推測）。
+- 一部の GroupId で ScriptKr が純粋な指令のみ（TextJp 空）の場合はスキップ。
+
+## 角色名一覧
+
+<details>
+<summary>244 キャラクターの ID ↔ 名前対応表 (クリックで展開)</summary>
+
+| ID | 名前 | 学校 | 部活 |
+|----|------|------|------|
+| 10000 | アル | Gehenna | Kohshinjo68 |
+| 10001 | エイミ | Millennium | SPTF |
+| 10002 | ハルナ | Gehenna | GourmetClub |
+| 10003 | ヒフミ | Trinity | RemedialClass |
+| 10004 | ヒナ | Gehenna | Fuuki |
+| 10005 | ホシノ | Abydos | Countermeasure |
+| 10006 | イオリ | Gehenna | Fuuki |
+| 10007 | マキ | Millennium | Veritas |
+| 10008 | ネル | Millennium | CleanNClearing |
+| 10009 | イズミ | Gehenna | GourmetClub |
+| 10010 | シロコ | Abydos | Countermeasure |
+| 10011 | シュン | Shanhaijing | Meihuayuan |
+| 10012 | スミレ | Millennium | TrainingClub |
+| 10013 | ツルギ | Trinity | Justice |
+| 10014 | イズナ | Hyakkiyako | NinpoKenkyubu |
+| 10015 | アリス | Millennium | GameDev |
+| 10016 | ミドリ | Millennium | GameDev |
+| 10017 | チェリノ | RedWinter | RedwinterSecretary |
+| 10018 | ユズ | Millennium | GameDev |
+| 10019 | アズサ | Trinity | RemedialClass |
+| 10020 | コハル | Trinity | RemedialClass |
+| 10021 | アズサ | Trinity | RemedialClass |
+| 10022 | ヒナ | Gehenna | Fuuki |
+| 10023 | イオリ | Gehenna | Fuuki |
+| 10024 | シロコ | Abydos | Countermeasure |
+| 10025 | シュン | Shanhaijing | Meihuayuan |
+| 10026 | ネル | Millennium | CleanNClearing |
+| 10027 | カリン | Millennium | CleanNClearing |
+| 10028 | アスナ | Millennium | CleanNClearing |
+| 10029 | ナツ | Trinity | HoukagoDessert |
+| 10030 | チナツ | Gehenna | Fuuki |
+| 10031 | アル | Gehenna | Kohshinjo68 |
+| 10032 | ムツキ | Gehenna | Kohshinjo68 |
+| 10033 | ワカモ | Hyakkiyako | EmptyClub |
+| 10034 | ミモリ | Hyakkiyako | Shugyobu |
+| 10035 | ウイ | Trinity | BookClub |
+| 10036 | ヒナタ | Trinity | SisterHood |
+| 10037 | マリナ | RedWinter | RedwinterSecretary |
+| 10038 | ミヤコ | SRT | RabbitPlatoon |
+| 10039 | ミユ | SRT | RabbitPlatoon |
+| 10040 | ツクヨ | Hyakkiyako | NinpoKenkyubu |
+| 10041 | ミサキ | Arius | AriusSqud |
+| 10042 | アツコ | Arius | AriusSqud |
+| 10043 | ワカモ | Hyakkiyako | EmptyClub |
+| 10044 | ノノミ | Abydos | Countermeasure |
+| 10045 | ホシノ | Abydos | Countermeasure |
+| 10046 | イズナ | Hyakkiyako | NinpoKenkyubu |
+| 10047 | チセ | Hyakkiyako | Onmyobu |
+| 10048 | サオリ | Arius | AriusSqud |
+| 10049 | カズサ | Trinity | HoukagoDessert |
+| 10050 | ココナ | Shanhaijing | Meihuayuan |
+| 10051 | ウタハ | Millennium | Engineer |
+| 10052 | ノア | Millennium | TheSeminar |
+| 10053 | ユウカ | Millennium | TheSeminar |
+| 10054 | マリー | Trinity | SisterHood |
+| 10055 | シグレ | RedWinter | Class227 |
+| 10056 | セリナ | Trinity | KnightsHospitaller |
+| 10057 | ハルナ | Gehenna | GourmetClub |
+| 10058 | ミネ | Trinity | KnightsHospitaller |
+| 10059 | ミカ | Trinity | TeaParty |
+| 10060 | メグ | Gehenna | HotSpringsDepartment |
+| 10061 | サクラコ | Trinity | SisterHood |
+| 10062 | トキ | Millennium | CleanNClearing |
+| 10063 | コユキ | Millennium | TheSeminar |
+| 10064 | カヨコ | Gehenna | Kohshinjo68 |
+| 10065 | カホ | Hyakkiyako | Onmyobu |
+| 10066 | アリス | Millennium | GameDev |
+| 10067 | トキ | Millennium | CleanNClearing |
+| 10068 | レイサ | Trinity | TrinityVigilance |
+| 10069 | ルミ | Shanhaijing | BlackTortoisePromenade |
+| 10070 | ミナ | Shanhaijing | Genryumon |
+| 10071 | ミヤコ | SRT | RabbitPlatoon |
+| 10072 | サキ | SRT | RabbitPlatoon |
+| 10073 | ウイ | Trinity | BookClub |
+| 10074 | ハナコ | Trinity | RemedialClass |
+| 10075 | メル | RedWinter | KnowledgeLiberationFront |
+| 10076 | コトリ | Millennium | Engineer |
+| 10077 | イチカ | Trinity | Justice |
+| 10078 | カスミ | Gehenna | HotSpringsDepartment |
+| 10079 | 美琴 | Tokiwadai | EmptyClub |
+| 10080 | 操祈 | Tokiwadai | EmptyClub |
+| 10081 | ユカリ | Hyakkiyako | Hyakkayouran |
+| 10082 | レンゲ | Hyakkiyako | Hyakkayouran |
+| 10083 | キキョウ | Hyakkiyako | Hyakkayouran |
+| 10084 | コタマ | Millennium | Veritas |
+| 10085 | ハレ | Millennium | Veritas |
+| 10086 | ヒナ | Gehenna | Fuuki |
+| 10087 | アコ | Gehenna | Fuuki |
+| 10088 | カヨコ | Gehenna | Kohshinjo68 |
+| 10089 | アル | Gehenna | Kohshinjo68 |
+| 10090 | ウミカ | Hyakkiyako | MatsuriOffice |
+| 10091 | カズサ | Trinity | HoukagoDessert |
+| 10092 | ヨシミ | Trinity | HoukagoDessert |
+| 10093 | キララ | Gehenna | ShinySparkleSociety |
+| 10094 | モモイ | Millennium | GameDev |
+| 10095 | ミドリ | Millennium | GameDev |
+| 10096 | カンナ | Valkyrie | PublicPeaceBureau |
+| 10097 | モエ | SRT | RabbitPlatoon |
+| 10098 | ホシノ | Abydos | Countermeasure |
+| 10099 | ホシノ | Abydos | Countermeasure |
+| 10100 | シロコ | Abydos | AbydosStudentCouncil |
+| 10101 | サオリ | Arius | AriusSqud |
+| 10102 | ヒヨリ | Arius | AriusSqud |
+| 10103 | マリナ | RedWinter | RedwinterSecretary |
+| 10104 | レイジョ | Shanhaijing | BlackTortoisePromenade |
+| 10105 | マリー | Trinity | SisterHood |
+| 10106 | サクラコ | Trinity | SisterHood |
+| 10107 | チアキ | Gehenna | PandemoniumSociety |
+| 10108 | ユウカ | Millennium | TheSeminar |
+| 10109 | ノア | Millennium | TheSeminar |
+| 10110 | セイア | Trinity | TeaParty |
+| 10111 | ネル | Millennium | CleanNClearing |
+| 10112 | アスナ | Millennium | CleanNClearing |
+| 10113 | セナ | Gehenna | Emergentology |
+| 10114 | ジュリ | Gehenna | FoodService |
+| 10115 | レイ | Millennium | TrainingClub |
+| 10116 | サオリ | Arius | AriusSqud |
+| 10117 | ヒカリ | Highlander | CentralControlCenter |
+| 10118 | ノゾミ | Highlander | CentralControlCenter |
+| 10119 | ナグサ | Hyakkiyako | Hyakkayouran |
+| 10120 | ナツ | Trinity | HoukagoDessert |
+| 10121 | ユカリ | Hyakkiyako | Hyakkayouran |
+| 10122 | ミカ | Trinity | TeaParty |
+| 10123 | セイア | Trinity | TeaParty |
+| 10124 | ハスミ | Trinity | Justice |
+| 10125 | エリ | WildHunt | OccultClub |
+| 10126 | カノエ | WildHunt | OccultClub |
+| 13000 | アカネ | Millennium | CleanNClearing |
+| 13001 | チセ | Hyakkiyako | Onmyobu |
+| 13002 | アカリ | Gehenna | GourmetClub |
+| 13003 | ハスミ | Trinity | Justice |
+| 13004 | ノノミ | Abydos | Countermeasure |
+| 13005 | カヨコ | Gehenna | Kohshinjo68 |
+| 13006 | ムツキ | Gehenna | Kohshinjo68 |
+| 13007 | ジュンコ | Gehenna | GourmetClub |
+| 13008 | セリカ | Abydos | Countermeasure |
+| 13009 | ツバキ | Hyakkiyako | Shugyobu |
+| 13010 | ユウカ | Millennium | TheSeminar |
+| 13011 | モモイ | Millennium | GameDev |
+| 13012 | キリノ | Valkyrie | anzenkyoku |
+| 13013 | モミジ | RedWinter | KnowledgeLiberationFront |
+| 13014 | レンゲ | Hyakkiyako | Hyakkayouran |
+| 16000 | ハルカ | Gehenna | Kohshinjo68 |
+| 16001 | アスナ | Millennium | CleanNClearing |
+| 16002 | コトリ | Millennium | Engineer |
+| 16003 | スズミ | Trinity | TrinityVigilance |
+| 16004 | フィーナ | Hyakkiyako | MatsuriOffice |
+| 16005 | ツルギ | Trinity | Justice |
+| 16006 | イズミ | Gehenna | GourmetClub |
+| 16007 | トモエ | RedWinter | RedwinterSecretary |
+| 16008 | フブキ | Valkyrie | anzenkyoku |
+| 16009 | ミチル | Hyakkiyako | NinpoKenkyubu |
+| 16010 | ヒビキ | Millennium | Engineer |
+| 16011 | ハスミ | Trinity | Justice |
+| 16012 | ジュンコ | Gehenna | GourmetClub |
+| 16013 | コハル | Trinity | RemedialClass |
+| 16014 | イブキ | Gehenna | PandemoniumSociety |
+| 16015 | アイリ | Trinity | HoukagoDessert |
+| 16016 | ミネ | Trinity | KnightsHospitaller |
+| 16017 | アオバ | Highlander | FreightLogisticsDepartment |
+| 19002 |  | Hyakkiyako | NinpoKenkyubu |
+| 19003 |  | Trinity | SisterHood |
+| 19004 |  | Gehenna | IndeGEHENNA |
+| 19005 |  | Hyakkiyako | NinpoKenkyubu |
+| 19006 |  | Trinity | RemedialClass |
+| 20000 | ヒビキ | Millennium | Engineer |
+| 20001 | カリン | Millennium | CleanNClearing |
+| 20002 | サヤ | Shanhaijing | Endanbou |
+| 20003 | マシロ | Trinity | Justice |
+| 20004 | マシロ | Trinity | Justice |
+| 20005 | ヒフミ | Trinity | RemedialClass |
+| 20006 | サヤ | Shanhaijing | Endanbou |
+| 20007 | ミク | ETC | EmptyClub |
+| 20008 | アコ | Gehenna | Fuuki |
+| 20009 | チェリノ | RedWinter | RedwinterSecretary |
+| 20010 | ノドカ | RedWinter | Class227 |
+| 20011 | セリカ | Abydos | Countermeasure |
+| 20012 | セナ | Gehenna | Emergentology |
+| 20013 | チヒロ | Millennium | Veritas |
+| 20014 | サキ | SRT | RabbitPlatoon |
+| 20015 | カエデ | Hyakkiyako | Shugyobu |
+| 20016 | イロハ | Gehenna | PandemoniumSociety |
+| 20017 | ヒヨリ | Arius | AriusSqud |
+| 20018 | モエ | SRT | RabbitPlatoon |
+| 20019 | アカネ | Millennium | CleanNClearing |
+| 20020 | ヒマリ | Millennium | SPTF |
+| 20021 | ハナエ | Trinity | KnightsHospitaller |
+| 20022 | フウカ | Gehenna | FoodService |
+| 20023 | カンナ | Valkyrie | PublicPeaceBureau |
+| 20024 | ナギサ | Trinity | TeaParty |
+| 20025 | ハルカ | Gehenna | Kohshinjo68 |
+| 20026 | ミノリ | RedWinter | LaborParty |
+| 20027 | シロコ | Abydos | Countermeasure |
+| 20028 | ヒナタ | Trinity | SisterHood |
+| 20029 | ミモリ | Hyakkiyako | Shugyobu |
+| 20030 | ハルナ | Gehenna | GourmetClub |
+| 20031 | シグレ | RedWinter | Class227 |
+| 20032 | エイミ | Millennium | SPTF |
+| 20033 | マコト | Gehenna | PandemoniumSociety |
+| 20034 | アカリ | Gehenna | GourmetClub |
+| 20035 | ツバキ | Hyakkiyako | Shugyobu |
+| 20036 | セリカ | Abydos | Countermeasure |
+| 20037 | フブキ | Valkyrie | anzenkyoku |
+| 20038 | トモエ | RedWinter | RedwinterSecretary |
+| 20039 | キサキ | Shanhaijing | Genryumon |
+| 20040 | サツキ | Gehenna | PandemoniumSociety |
+| 20041 | リオ | Millennium | TheSeminar |
+| 20042 | マキ | Millennium | Veritas |
+| 20043 | イズミ | Gehenna | GourmetClub |
+| 20044 | スミレ | Millennium | TrainingClub |
+| 20045 | フィーナ | Hyakkiyako | MatsuriOffice |
+| 20046 | ニヤ | Hyakkiyako | Onmyobu |
+| 20047 | キキョウ | Hyakkiyako | Hyakkayouran |
+| 20048 | ナギサ | Trinity | TeaParty |
+| 20049 | ミサキ | Arius | AriusSqud |
+| 23000 | アイリ | Trinity | HoukagoDessert |
+| 23001 | フウカ | Gehenna | FoodService |
+| 23002 | ハナエ | Trinity | KnightsHospitaller |
+| 23003 | ハレ | Millennium | Veritas |
+| 23004 | ウタハ | Millennium | Engineer |
+| 23005 | アヤネ | Abydos | Countermeasure |
+| 23006 | シズコ | Hyakkiyako | MatsuriOffice |
+| 23007 | ハナコ | Trinity | RemedialClass |
+| 23008 | マリー | Trinity | SisterHood |
+| 26000 | チナツ | Gehenna | Fuuki |
+| 26001 | コタマ | Millennium | Veritas |
+| 26002 | ジュリ | Gehenna | FoodService |
+| 26003 | セリナ | Trinity | KnightsHospitaller |
+| 26004 | シミコ | Trinity | BookClub |
+| 26005 | ヨシミ | Trinity | HoukagoDessert |
+| 26006 | ノドカ | RedWinter | Class227 |
+| 26007 | アヤネ | Abydos | Countermeasure |
+| 26008 | シズコ | Hyakkiyako | MatsuriOffice |
+| 26009 | ユズ | Millennium | GameDev |
+| 26010 | ミユ | SRT | RabbitPlatoon |
+| 26011 | 涙子 | Sakugawa | EmptyClub |
+| 26012 | キリノ | Valkyrie | anzenkyoku |
+| 26013 | アツコ | Arius | AriusSqud |
+| 26014 | カリン | Millennium | CleanNClearing |
+| 26015 | イチカ | Trinity | Justice |
+| 29003 |  | Trinity | SisterHood |
+| 100050001 | ホシノ |  |  |
+| 100980001 | ホシノ |  |  |
+| 100990001 | ホシノ |  |  |
+
+</details>
+
+## エラーログ (カテゴリ別)
+
+## グループストーリー
+
+```
+empty club_13_1 gid=2302
+empty club_23_1 gid=3301
+empty club_23_1 gid=3302
+empty club_23_1 gid=3303
+```
+
+## 主線
+
+```
+empty scenario vol1/ch3/ep1 gid=13010
+empty scenario vol1/ch3/ep2 gid=13020
+empty scenario vol1/ch3/ep3 gid=13030
+empty scenario vol1/ch3/ep4 gid=13040
+empty scenario vol1/ch3/ep5 gid=13050
+empty scenario vol1/ch3/ep6 gid=13060
+empty scenario vol1/ch3/ep7 gid=13070
+empty scenario vol1/ch3/ep8 gid=13080
+```
+
+
+---
+
+*本データは Yostar Japan 版 Blue Archive の精翻訳 (Japanese Yostar translation) に基づく。データ抽出パイプラインは `utils/` 参照。*

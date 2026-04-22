@@ -1,0 +1,21 @@
+## グループストーリー
+
+```
+empty club_13_1 gid=2302
+empty club_23_1 gid=3301
+empty club_23_1 gid=3302
+empty club_23_1 gid=3303
+```
+
+## 主線
+
+```
+empty scenario vol1/ch3/ep1 gid=13010
+empty scenario vol1/ch3/ep2 gid=13020
+empty scenario vol1/ch3/ep3 gid=13030
+empty scenario vol1/ch3/ep4 gid=13040
+empty scenario vol1/ch3/ep5 gid=13050
+empty scenario vol1/ch3/ep6 gid=13060
+empty scenario vol1/ch3/ep7 gid=13070
+empty scenario vol1/ch3/ep8 gid=13080
+```

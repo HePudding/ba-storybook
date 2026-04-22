@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-04-22T14:14:34.765933Z",
+  "data_date": "2026-04-22",
+  "total_markdown_files": 2022,
+  "total_dialog_lines": 110348,
+  "total_momotalk_messages": 12821,
+  "total_errors": 12,
+  "by_type": {
+    "モモトーク": {
+      "type": "momotalk",
+      "files": 223,
+      "messages": 12821,
+      "errors": 0
+    },
+    "ミニストーリー": {
+      "type": "mini_story",
+      "files": 5,
+      "lines": 496,
+      "errors": 0
+    },
+    "グループストーリー": {
+      "type": "group_story",
+      "files": 53,
+      "lines": 4387,
+      "errors": 4
+    },
+    "キャラクターデータ": {
+      "type": "character_data",
+      "files": 245,
+      "errors": 0
+    },
+    "主線": {
+      "type": "main_story",
+      "files": 310,
+      "lines": 30829,
+      "errors": 8
+    },
+    "イベント": {
+      "type": "event_story",
+      "files": 492,
+      "lines": 31846,
+      "errors": 0,
+      "events_count": 51
+    },
+    "絆ストーリー": {
+      "type": "bond_story",
+      "files": 694,
+      "lines": 42790,
+      "errors": 0,
+      "characters_count": 167
+    }
+  }
+}

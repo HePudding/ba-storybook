@@ -144,7 +144,7 @@ def gen_main_story(manifest: dict) -> dict:
                         parsed,
                         chapter=f"{vol_title} / 第{c}章 / 第{entry['episode']}話",
                         story_type="main_story",
-                        extra_meta={"volume": v, "chapter": c, "episode": entry["episode"]},
+                        extra_meta={"volume": v, "chapter_no": c, "episode": entry["episode"]},
                     )
                     fname = f"{entry['episode']:02d}話_{sanitize_filename(title)}.md"
                     (chapter_dir / fname).write_text(md, encoding="utf-8")

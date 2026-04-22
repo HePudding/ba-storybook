@@ -4,7 +4,4 @@ ba-json/
 __pycache__/
 *.pyc
 .DS_Store
-*.log
 /tmp/
-ba-stories/
-!ba-stories/.gitkeep
