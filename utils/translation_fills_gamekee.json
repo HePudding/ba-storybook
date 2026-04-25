@@ -1,0 +1,388 @@
+{
+  "schools": {
+    "常盤学園": {
+      "cn": "常磐台中学",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/zh-hans/%E5%BE%A1%E5%9D%82%E7%BE%8E%E7%90%B4",
+      "note": "魔禁联动活动中御坂美琴、食蜂操祈所属的学校（常盤台中学）"
+    },
+    "佐官学園": {
+      "cn": "栅川中学",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%BD%90%E5%A4%A9%E6%B3%AA%E5%AD%90",
+      "note": "魔禁联动活动中佐天泪子所属的学校（栅川中学/柵川中学）"
+    }
+  },
+  "clubs": {
+    "SPTF": {
+      "cn": "超现象特务部",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "掩蔽部": {
+      "cn": "炼丹术研究会",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6",
+      "note": "Endanbou code 实际对应日服\"錬丹術研究会\"（Saya 药子沙耶所属），\"掩蔽部\"推测为日翻中旧数据误写"
+    },
+    "掃除と洗濯部": {
+      "cn": "Cleaning&Clearing",
+      "cn_alt": "女仆部",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD",
+      "note": "千年科学学园 C&C，中文 wiki 保留英文名 Cleaning&Clearing，别称女仆部"
+    },
+    "治安維持局": {
+      "cn": "公安局",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%A5%B3%E6%AD%A6%E7%A5%9E%E8%AD%A6%E5%AF%9F%E5%AD%A6%E5%9B%AD",
+      "note": "女武神警察学园公安局（尾刃神奈所属）"
+    },
+    "中央管理局": {
+      "cn": "中央控制中心",
+      "cn_alt": "CCC",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E6%9C%9D%E9%9C%A7%E5%91%A8%E9%98%B2",
+      "note": "海兰德铁道学园 CCC (Central Control Center)"
+    },
+    "救急医学部": {
+      "cn": "急救医学部",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/SRT%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%9B%AD",
+      "note": "格黑娜学园社团（冰室濑奈所属）"
+    },
+    "物流部": {
+      "cn": "货物输送管理部",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%86%85%E6%B5%B7%E9%9D%92%E5%8F%B6",
+      "note": "海兰德铁道学园货物输送管理部（内海青叶所属）"
+    }
+  },
+  "scenario_characters": {
+    "御坂美琴|": {
+      "cn": "御坂美琴",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/zh-hans/%E5%BE%A1%E5%9D%82%E7%BE%8E%E7%90%B4",
+      "note": "超电磁炮联动角色"
+    },
+    "食蜂操祈|": {
+      "cn": "食蜂操祈",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/zh-hans/%E9%A3%9F%E8%9C%82%E6%93%8D%E7%A5%88",
+      "note": "超电磁炮联动角色"
+    },
+    "佐天涙子|": {
+      "cn": "佐天泪子",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/zh-hans/%E4%BD%90%E5%A4%A9%E6%B3%AA%E5%AD%90",
+      "note": "超电磁炮联动角色"
+    },
+    "御坂美琴&食蜂操祈|": {
+      "cn": "御坂美琴&食蜂操祈",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "note": "超电磁炮联动组合"
+    },
+    "ユカリ|": {
+      "cn": "紫",
+      "nickname_cn": "",
+      "cn_full": "勘解由小路紫",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%8B%98%E8%A7%A3%E7%94%B1%E5%B0%8F%E8%B7%AF%E7%B4%AB",
+      "note": "百鬼夜行百花缭乱部员勘解由小路紫"
+    },
+    "エンジニア部|": {
+      "cn": "工程师部",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://moegirl.icu/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD",
+      "note": "千年科学学园工程师部（社团名，剧情中以社团整体发言）"
+    }
+  },
+  "story_titles": {},
+  "events": {
+    "event_801": {
+      "jp": "桜花爛漫お祭り騒ぎ！～空に徒花 地に忍び～",
+      "cn": "樱花烂漫 祭典骚动",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_802": {
+      "jp": "革命のイワン・クパーラ 髭とプリンとレッドウィンター",
+      "cn": "革命之伊凡·库帕拉",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_803": {
+      "jp": "夏空のウィッシュリスト",
+      "cn": "夏日天空的愿望清单",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_804": {
+      "jp": "～風紀委員会行政官緊急特務命令～ヒナ委員長のなつやすみっ！",
+      "cn": "日奈会长的夏日休假！",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_805": {
+      "jp": "ネバーランドでつかまえて",
+      "cn": "在梦幻岛玩捉迷藏",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_806": {
+      "jp": "船上のバニーチェイサー",
+      "cn": "船上的兔子追击者",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_807": {
+      "jp": "初音ミクのスペシャルライブ in キヴォトス～リハーサル篇～",
+      "cn": "初音未来的特别演出 in 基沃托斯",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_808": {
+      "jp": "227号温泉郷の運営記録！ ～白い吐息は寄り添って～",
+      "cn": "227号温泉乡运营记录！",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/609555.html"
+    },
+    "event_809": {
+      "jp": "新春狂想曲 第68番",
+      "cn": "第68号新春狂想曲",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_810": {
+      "jp": "シャーレのハッピー♡バレンタインパトロール狐坂ワカモの沈黙と祝宴",
+      "cn": "沙勒的快乐情人节巡逻·狐坂若藻的沉默与欢宴",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_811": {
+      "jp": "シャーレのハッピー♡バレンタインパトロール狐坂ワカモの沈黙と祝宴",
+      "cn": "沙勒的快乐情人节巡逻·狐坂若藻的沉默与欢宴",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html",
+      "note": "与 event_810 同期副活动"
+    },
+    "event_812": {
+      "jp": "どたばたシスターと古書館の魔術師",
+      "cn": "冒失修女和古书馆的魔法师",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_813": {
+      "jp": "不忍ノ心",
+      "cn": "不忍之心",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_814": {
+      "jp": "アビドスリゾート復旧対策委員会",
+      "cn": "阿拜多斯度假村重建对策委员会",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_815": {
+      "jp": "（未知）",
+      "note": "event_815 日期 2022-07-14，日服往期活动列表中无对应限时活动（可能是主线/关联活动，非独立活动）"
+    },
+    "event_816": {
+      "jp": "放課後スイーツ物語 甘い秘密と銃撃戦",
+      "cn": "课后甜点故事·甜秘枪战",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_817": {
+      "jp": "ON YOUR MARK @MILLENNIUM～キヴォトス晄輪大祭～",
+      "cn": "ON YOUR MARK @ MILLENNIUM·基沃托斯晄轮大会",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_818": {
+      "jp": "Get Set,GO！ ～キヴォトス晄輪大祭～",
+      "cn": "Get Set,Go!·基沃托斯晄轮大会",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_819": {
+      "jp": "聖堂のメリークリスマス ～救護騎士団の贈り物～",
+      "cn": "圣堂的圣夜祝福·救护骑士团的礼物",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_820": {
+      "jp": "喰積の 前にいささか ～一番勝負～",
+      "cn": "新年开胃菜·一局定输赢",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_821": {
+      "jp": "連合作戦「F.SCT攻略戦」",
+      "cn": "虚妄圣所攻略战",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html",
+      "note": "国服译名为\"虚妄圣所攻略战\"，对应最终篇第1章"
+    },
+    "event_822": {
+      "jp": "A-H.A占領戦",
+      "cn": "阿特拉哈西斯方舟占领战",
+      "source": "gamekee",
+      "url": "https://bluearchive-cn.com/news/1235",
+      "note": "最终篇第3章官方活动名"
+    },
+    "event_823": {
+      "jp": "PHT決戦",
+      "cn": "弗雷纳帕提斯决战",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html",
+      "note": "最终篇第4章官方活动名"
+    },
+    "event_824": {
+      "jp": "D.U.シラトリ区 復旧作業",
+      "cn": "D.U.白鸟区 修复工程",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_825": {
+      "jp": "白亜の予告状～虚飾の館と美学の在り処～",
+      "cn": "纯白的预告信·虚饰之邸与美学所在之处",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_826": {
+      "jp": "龍武同舟 ～思い描くは、ひとつの未来～",
+      "cn": "龙武同舟·心中所绘，同一个未来",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_827": {
+      "jp": "夏の特殊作戦！RABBIT小隊と消えたエビの謎",
+      "cn": "夏日特别行动！RABBIT小队与虾的消失之谜",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/608554.html"
+    },
+    "event_828": {
+      "jp": "隠されし遺産を求めて～トリニティの課外活動～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_829": {
+      "jp": "学漫同人物語 ～2人が求める最終回～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_830": {
+      "jp": "Trip-Trap-Train",
+      "note": "国服未开，暂无官方中文译名（保留英文原名）"
+    },
+    "event_831": {
+      "jp": "とある科学の青春記録",
+      "cn": "某科学的青春记录",
+      "source": "bilibili_wiki",
+      "url": "https://www.bilibili.com/video/BV1eD421N7hy/",
+      "note": "超电磁炮联动活动；国服未开但日服/国际服官方已有中文 PV 译名"
+    },
+    "event_832": {
+      "jp": "電脳新春行進曲",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_833": {
+      "jp": "陽ひらく彼女たちの小夜曲",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_834": {
+      "jp": "0068 オペラより愛をこめて！",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_835": {
+      "jp": "にぎにぎとゆきゆきて",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_836": {
+      "jp": "-ive aLIVE!",
+      "note": "国服未开，暂无官方中文译名（保留英文原名）"
+    },
+    "event_837": {
+      "jp": "Say-Bing!",
+      "note": "国服未开，暂无官方中文译名（保留英文原名）"
+    },
+    "event_838": {
+      "jp": "Sheside outside",
+      "note": "国服未开，暂无官方中文译名（保留英文原名）"
+    },
+    "event_839": {
+      "jp": "月華夢騒",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_840": {
+      "jp": "五塵来降",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_841": {
+      "jp": "Serenade Promenade",
+      "note": "国服未开，暂无官方中文译名（保留英文原名）"
+    },
+    "event_842": {
+      "jp": "秘密のミッドナイトパーティー～オニの手は鐘と共に～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_843": {
+      "jp": "Code: BOX ミレニアムに迫る影～一つの問いと二つの答え～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_844": {
+      "jp": "パンデミック・ハザード～奇跡の一枚～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_845": {
+      "jp": "プレイボール！～目指せ！満塁ホームラン～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_846": {
+      "jp": "ハイランダー鉄道爆走事件〜そして列車はなくなった〜",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_847": {
+      "jp": "百ヨリ出ズル一輪ノ 〜いざ尋常に、水上勝負〜",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_848": {
+      "jp": "夏空のやくそく",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_849": {
+      "jp": "我らオカルト研究会！ ～学院の不思議と古の呪文～",
+      "note": "国服未开，暂无官方中文译名"
+    },
+    "event_70000": {
+      "jp": "（迷你游戏活动，内容为空）",
+      "note": "event_70000 剧情目录为空，可能为迷你游戏或系统活动框架"
+    },
+    "event_80000": {
+      "jp": "バレンタインの約束",
+      "cn": "情人节的约定",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/ba/693636.html",
+      "note": "2025-02-12 情人节特别活动"
+    }
+  },
+  "terms": {
+    "アトラ・ハシース": {
+      "cn": "阿特拉·哈西斯",
+      "source": "gamekee",
+      "url": "https://bluearchive-cn.com/news/1235",
+      "note": "国服官方活动\"阿特拉哈西斯方舟占领战\"使用的官方译名"
+    },
+    "カルバノ山": {
+      "cn": "卡班诺山",
+      "source": "gamekee",
+      "url": "https://www.gamekee.com/607807.html",
+      "note": "主线Vol.4\"卡班诺的兔子篇\"核心地点（卡班诺=Caerbannog）"
+    }
+  }
+}

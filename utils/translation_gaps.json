@@ -1,0 +1,877 @@
+{
+  "schools": [
+    {
+      "jp_full": "赤冬連邦学園",
+      "jp_short": "赤冬",
+      "code": "RedWinter"
+    },
+    {
+      "jp_full": "SRT特殊学園",
+      "jp_short": "SRT",
+      "code": "SRT"
+    },
+    {
+      "jp_full": "常盤学園",
+      "jp_short": "常盤",
+      "code": "Tokiwa"
+    },
+    {
+      "jp_full": "佐官学園",
+      "jp_short": "佐官",
+      "code": "Sakugawa"
+    },
+    {
+      "jp_full": "ハイランダー鉄道学園",
+      "jp_short": "ハイランダー",
+      "code": "Highlander"
+    },
+    {
+      "jp_full": "野狩高等学校",
+      "jp_short": "野狩",
+      "code": "WildHunt"
+    }
+  ],
+  "clubs": [
+    {
+      "jp": "便利屋68",
+      "code": "Kohshinjo68"
+    },
+    {
+      "jp": "ヴェリタス",
+      "code": "Veritas"
+    },
+    {
+      "jp": "風紀委員会",
+      "code": "Fuuki"
+    },
+    {
+      "jp": "SPTF",
+      "code": "SPTF"
+    },
+    {
+      "jp": "正義実現委員会",
+      "code": "Justice"
+    },
+    {
+      "jp": "掩蔽部",
+      "code": "Endanbou"
+    },
+    {
+      "jp": "放課後スイーツ部",
+      "code": "HoukagoDessert"
+    },
+    {
+      "jp": "忍術研究部",
+      "code": "NinpoKenkyubu"
+    },
+    {
+      "jp": "トレーニングクラブ",
+      "code": "TrainingClub"
+    },
+    {
+      "jp": "セミナー",
+      "code": "TheSeminar"
+    },
+    {
+      "jp": "対策委員会",
+      "code": "Countermeasure"
+    },
+    {
+      "jp": "未所属",
+      "code": "None"
+    },
+    {
+      "jp": "梅華園",
+      "code": "Meihuayuan"
+    },
+    {
+      "jp": "掃除と洗濯部",
+      "code": "CleanNClearing"
+    },
+    {
+      "jp": "救護騎士団",
+      "code": "KnightsHospitaller"
+    },
+    {
+      "jp": "祭り事務局",
+      "code": "MatsuriOffice"
+    },
+    {
+      "jp": "補習授業部",
+      "code": "RemedialClass"
+    },
+    {
+      "jp": "美食研究会",
+      "code": "GourmetClub"
+    },
+    {
+      "jp": "温泉開発部",
+      "code": "HotSpringsDepartment"
+    },
+    {
+      "jp": "赤冬事務局",
+      "code": "RedwinterSecretary"
+    },
+    {
+      "jp": "RABBIT小隊",
+      "code": "RabbitPlatoon"
+    },
+    {
+      "jp": "エンジニア部",
+      "code": "Engineer"
+    },
+    {
+      "jp": "パンデモニウムソサエティ",
+      "code": "PandemoniumSociety"
+    },
+    {
+      "jp": "2年27組",
+      "code": "Class227"
+    },
+    {
+      "jp": "シスターフッド",
+      "code": "SisterHood"
+    },
+    {
+      "jp": "トリニティ風紀委員会",
+      "code": "TrinityVigilance"
+    },
+    {
+      "jp": "古書研究会",
+      "code": "BookClub"
+    },
+    {
+      "jp": "治安維持局",
+      "code": "PublicPeaceBureau"
+    },
+    {
+      "jp": "アリウススクワッド",
+      "code": "AriusSqud"
+    },
+    {
+      "jp": "給食部",
+      "code": "FoodService"
+    },
+    {
+      "jp": "アビドス生徒会",
+      "code": "AbydosStudentCouncil"
+    },
+    {
+      "jp": "玄武商店街",
+      "code": "BlackTortoisePromenade"
+    },
+    {
+      "jp": "中央管理局",
+      "code": "CentralControlCenter"
+    },
+    {
+      "jp": "救急医学部",
+      "code": "Emergentology"
+    },
+    {
+      "jp": "物流部",
+      "code": "FreightLogisticsDepartment"
+    },
+    {
+      "jp": "玄龍門",
+      "code": "Genryumon"
+    },
+    {
+      "jp": "百花繚乱",
+      "code": "Hyakkayouran"
+    },
+    {
+      "jp": "ゲヘナ在籍",
+      "code": "IndeGEHENNA"
+    },
+    {
+      "jp": "百鬼夜行在籍",
+      "code": "IndeHyakkiyako"
+    },
+    {
+      "jp": "山海経在籍",
+      "code": "IndeShanhaijing"
+    },
+    {
+      "jp": "知識解放戦線",
+      "code": "KnowledgeLiberationFront"
+    },
+    {
+      "jp": "労働党",
+      "code": "LaborParty"
+    },
+    {
+      "jp": "オカルト研究部",
+      "code": "OccultClub"
+    },
+    {
+      "jp": "陰陽部",
+      "code": "Onmyobu"
+    },
+    {
+      "jp": "シャイニングスパークル研究会",
+      "code": "ShinySparkleSociety"
+    },
+    {
+      "jp": "修行部",
+      "code": "Shugyobu"
+    },
+    {
+      "jp": "ティーパーティー",
+      "code": "TeaParty"
+    },
+    {
+      "jp": "安全局",
+      "code": "anzenkyoku"
+    }
+  ],
+  "characters": [
+    {
+      "jp_short": "アル（ドレス）",
+      "base_jp": "アル",
+      "variant_jp": "ドレス",
+      "dev_name": "CH0240",
+      "character_id": 10089,
+      "is_variant": true
+    },
+    {
+      "jp_short": "ヒナ（ドレス）",
+      "base_jp": "ヒナ",
+      "variant_jp": "ドレス",
+      "dev_name": "CH0230",
+      "character_id": 10086,
+      "is_variant": true
+    },
+    {
+      "jp_short": "ヒナ（ドレス）",
+      "jp_full": "空崎ヒナ",
+      "dev_name": "CH0230",
+      "character_id": 10086,
+      "is_variant": false
+    },
+    {
+      "jp_short": "アコ（ドレス）",
+      "jp_full": "天雨アコ",
+      "dev_name": "CH0231",
+      "character_id": 10087,
+      "is_variant": false
+    },
+    {
+      "jp_short": "カヨコ（ドレス）",
+      "jp_full": "鬼方カヨコ",
+      "dev_name": "CH0239",
+      "character_id": 10088,
+      "is_variant": false
+    },
+    {
+      "jp_short": "アル（ドレス）",
+      "jp_full": "陸八魔アル",
+      "dev_name": "CH0240",
+      "character_id": 10089,
+      "is_variant": false
+    },
+    {
+      "jp_short": "ウミカ",
+      "jp_full": "里浜ウミカ",
+      "dev_name": "CH0110",
+      "character_id": 10090,
+      "is_variant": false
+    },
+    {
+      "jp_short": "アカリ（正月）",
+      "base_jp": "アカリ",
+      "variant_jp": "正月",
+      "dev_name": "CH0196",
+      "character_id": 20034,
+      "is_variant": true
+    },
+    {
+      "jp_short": "カヨコ（ドレス）",
+      "base_jp": "カヨコ",
+      "variant_jp": "ドレス",
+      "dev_name": "CH0239",
+      "character_id": 10088,
+      "is_variant": true
+    },
+    {
+      "jp_short": "ツバキ（ガイド）",
+      "base_jp": "ツバキ",
+      "variant_jp": "ガイド",
+      "dev_name": "CH0255",
+      "character_id": 20035,
+      "is_variant": true
+    },
+    {
+      "jp_short": "イブキ",
+      "jp_full": "丹花イブキ",
+      "dev_name": "CH0077",
+      "character_id": 16014,
+      "is_variant": false
+    },
+    {
+      "jp_short": "アコ（ドレス）",
+      "base_jp": "アコ",
+      "variant_jp": "ドレス",
+      "dev_name": "CH0231",
+      "character_id": 10087,
+      "is_variant": true
+    },
+    {
+      "jp_short": "マコト",
+      "jp_full": "羽沼マコト",
+      "dev_name": "CH0079",
+      "character_id": 20033,
+      "is_variant": false
+    },
+    {
+      "jp_short": "アカリ（正月）",
+      "jp_full": "鰐渕アカリ",
+      "dev_name": "CH0196",
+      "character_id": 20034,
+      "is_variant": false
+    },
+    {
+      "jp_short": "ツバキ（ガイド）",
+      "jp_full": "春日ツバキ",
+      "dev_name": "CH0255",
+      "character_id": 20035,
+      "is_variant": false
+    }
+  ],
+  "scenario_characters": [
+    {
+      "jp": "ヒマリ",
+      "nickname_jp": "特異現象捜査部"
+    },
+    {
+      "jp": "ミチル",
+      "nickname_jp": "忍術研究部"
+    },
+    {
+      "jp": "ナグサ",
+      "nickname_jp": "百花繚乱紛争調停委員会"
+    },
+    {
+      "jp": "ユカリ",
+      "nickname_jp": "百花繚乱紛争調停委員会"
+    },
+    {
+      "jp": "ユカリ",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "レンゲ",
+      "nickname_jp": "百花繚乱紛争調停委員会"
+    },
+    {
+      "jp": "キキョウ",
+      "nickname_jp": "百花繚乱紛争調停委員会"
+    },
+    {
+      "jp": "御坂美琴",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "食蜂操祈",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "佐天涙子",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "シュロ",
+      "nickname_jp": "花鳥風月部"
+    },
+    {
+      "jp": "コクリコ",
+      "nickname_jp": "花鳥風月部"
+    },
+    {
+      "jp": "アラタ",
+      "nickname_jp": "魑魅一座・路上流"
+    },
+    {
+      "jp": "アイン",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "ソフ",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "オウル",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "魑魅一座A",
+      "nickname_jp": "魑魅一座・路上流"
+    },
+    {
+      "jp": "魑魅一座B",
+      "nickname_jp": "魑魅一座・路上流"
+    },
+    {
+      "jp": "百鬼夜行の生徒A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行の生徒B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "アルバイトの生徒",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行の生徒C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "村の住民",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "魑魅一座たち",
+      "nickname_jp": "魑魅一座・路上流"
+    },
+    {
+      "jp": "チンピラA",
+      "nickname_jp": "街の無法者"
+    },
+    {
+      "jp": "チンピラB",
+      "nickname_jp": "街の無法者"
+    },
+    {
+      "jp": "チンピラたち",
+      "nickname_jp": "街の無法者"
+    },
+    {
+      "jp": "お祭り委員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "お祭り審査委員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行サークル部員A",
+      "nickname_jp": "クロレラ観察部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員B",
+      "nickname_jp": "クロレラ観察部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員A",
+      "nickname_jp": "将棋部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員B",
+      "nickname_jp": "将棋部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員A",
+      "nickname_jp": "フィットネス落語部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員B",
+      "nickname_jp": "フィットネス落語部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員A",
+      "nickname_jp": "かるたバトル部"
+    },
+    {
+      "jp": "百鬼夜行サークル部員B",
+      "nickname_jp": "かるたバトル部"
+    },
+    {
+      "jp": "百花繚乱部員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "傘屋の店主",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "工芸品店の店主",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "御坂美琴&食蜂操祈",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "エンジニア部",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員D",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員たち",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員たち",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "無貌の形代",
+      "nickname_jp": "百物語"
+    },
+    {
+      "jp": "幻魎百物語",
+      "nickname_jp": "百物語"
+    },
+    {
+      "jp": "アイン&ソフ&オウル",
+      "nickname_jp": ""
+    }
+  ],
+  "story_titles": [
+    {
+      "jp": "総力戦 - 妙鬼黒影",
+      "category": "Raid"
+    },
+    {
+      "jp": "Vol.5 百花繚乱編",
+      "category": "scenario_title"
+    },
+    {
+      "jp": "作り話のうそ",
+      "category": "scenario_title"
+    }
+  ],
+  "events": [
+    {
+      "event_dir": "event_70000",
+      "event_id": "70000"
+    },
+    {
+      "event_dir": "event_80000",
+      "event_id": "80000"
+    },
+    {
+      "event_dir": "event_801",
+      "event_id": "801"
+    },
+    {
+      "event_dir": "event_802",
+      "event_id": "802"
+    },
+    {
+      "event_dir": "event_803",
+      "event_id": "803"
+    },
+    {
+      "event_dir": "event_804",
+      "event_id": "804"
+    },
+    {
+      "event_dir": "event_805",
+      "event_id": "805"
+    },
+    {
+      "event_dir": "event_806",
+      "event_id": "806"
+    },
+    {
+      "event_dir": "event_807",
+      "event_id": "807"
+    },
+    {
+      "event_dir": "event_808",
+      "event_id": "808"
+    },
+    {
+      "event_dir": "event_809",
+      "event_id": "809"
+    },
+    {
+      "event_dir": "event_810",
+      "event_id": "810"
+    },
+    {
+      "event_dir": "event_811",
+      "event_id": "811"
+    },
+    {
+      "event_dir": "event_812",
+      "event_id": "812"
+    },
+    {
+      "event_dir": "event_813",
+      "event_id": "813"
+    },
+    {
+      "event_dir": "event_814",
+      "event_id": "814"
+    },
+    {
+      "event_dir": "event_815",
+      "event_id": "815"
+    },
+    {
+      "event_dir": "event_816",
+      "event_id": "816"
+    },
+    {
+      "event_dir": "event_817",
+      "event_id": "817"
+    },
+    {
+      "event_dir": "event_818",
+      "event_id": "818"
+    },
+    {
+      "event_dir": "event_819",
+      "event_id": "819"
+    },
+    {
+      "event_dir": "event_820",
+      "event_id": "820"
+    },
+    {
+      "event_dir": "event_821",
+      "event_id": "821"
+    },
+    {
+      "event_dir": "event_822",
+      "event_id": "822"
+    },
+    {
+      "event_dir": "event_823",
+      "event_id": "823"
+    },
+    {
+      "event_dir": "event_824",
+      "event_id": "824"
+    },
+    {
+      "event_dir": "event_825",
+      "event_id": "825"
+    },
+    {
+      "event_dir": "event_826",
+      "event_id": "826"
+    },
+    {
+      "event_dir": "event_827",
+      "event_id": "827"
+    },
+    {
+      "event_dir": "event_828",
+      "event_id": "828"
+    },
+    {
+      "event_dir": "event_829",
+      "event_id": "829"
+    },
+    {
+      "event_dir": "event_830",
+      "event_id": "830"
+    },
+    {
+      "event_dir": "event_831",
+      "event_id": "831"
+    },
+    {
+      "event_dir": "event_832",
+      "event_id": "832"
+    },
+    {
+      "event_dir": "event_833",
+      "event_id": "833"
+    },
+    {
+      "event_dir": "event_834",
+      "event_id": "834"
+    },
+    {
+      "event_dir": "event_835",
+      "event_id": "835"
+    },
+    {
+      "event_dir": "event_836",
+      "event_id": "836"
+    },
+    {
+      "event_dir": "event_837",
+      "event_id": "837"
+    },
+    {
+      "event_dir": "event_838",
+      "event_id": "838"
+    },
+    {
+      "event_dir": "event_839",
+      "event_id": "839"
+    },
+    {
+      "event_dir": "event_840",
+      "event_id": "840"
+    },
+    {
+      "event_dir": "event_841",
+      "event_id": "841"
+    },
+    {
+      "event_dir": "event_842",
+      "event_id": "842"
+    },
+    {
+      "event_dir": "event_843",
+      "event_id": "843"
+    },
+    {
+      "event_dir": "event_844",
+      "event_id": "844"
+    },
+    {
+      "event_dir": "event_845",
+      "event_id": "845"
+    },
+    {
+      "event_dir": "event_846",
+      "event_id": "846"
+    },
+    {
+      "event_dir": "event_847",
+      "event_id": "847"
+    },
+    {
+      "event_dir": "event_848",
+      "event_id": "848"
+    },
+    {
+      "event_dir": "event_849",
+      "event_id": "849"
+    }
+  ],
+  "favor_items": [],
+  "locations": [],
+  "terms": [
+    {
+      "jp": "モモトーク"
+    },
+    {
+      "jp": "ヘイロー"
+    },
+    {
+      "jp": "キヴォトス"
+    },
+    {
+      "jp": "先生と共に"
+    },
+    {
+      "jp": "カルバノ山"
+    },
+    {
+      "jp": "ゲマトリア"
+    },
+    {
+      "jp": "ブラックスーツ"
+    },
+    {
+      "jp": "アトラ・ハシース"
+    },
+    {
+      "jp": "絆ストーリー"
+    },
+    {
+      "jp": "グループストーリー"
+    },
+    {
+      "jp": "メインストーリー"
+    },
+    {
+      "jp": "イベントストーリー"
+    },
+    {
+      "jp": "ミニストーリー"
+    },
+    {
+      "jp": "レイド"
+    }
+  ]
+}

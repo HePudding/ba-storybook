@@ -1,0 +1,102 @@
+{
+  "schools": {
+    "total": 14,
+    "translated": 14,
+    "not_found": 0,
+    "coverage": "100.0%",
+    "by_source": {
+      "game_data_tw": 8,
+      "moegirl": 6,
+      "gamekee": 0
+    }
+  },
+  "clubs": {
+    "total": 49,
+    "translated": 49,
+    "not_found": 0,
+    "coverage": "100.0%",
+    "by_source": {
+      "game_data_tw": 1,
+      "moegirl": 48,
+      "gamekee": 0
+    }
+  },
+  "story_titles": {
+    "total": 107,
+    "translated": 106,
+    "not_found": 1,
+    "coverage": "99.1%",
+    "by_source": {
+      "game_data_tw": 104,
+      "moegirl": 2,
+      "gamekee": 0
+    }
+  },
+  "favor_items": {
+    "total": 52,
+    "translated": 52,
+    "not_found": 0,
+    "coverage": "100.0%",
+    "by_source": {
+      "game_data_tw": 52,
+      "moegirl": 0,
+      "gamekee": 0
+    }
+  },
+  "locations": {
+    "total": 87,
+    "translated": 87,
+    "not_found": 0,
+    "coverage": "100.0%",
+    "by_source": {
+      "game_data_tw": 87,
+      "moegirl": 0,
+      "gamekee": 0
+    }
+  },
+  "terms": {
+    "total": 24,
+    "translated": 23,
+    "not_found": 1,
+    "coverage": "95.8%",
+    "by_source": {
+      "game_data_tw": 10,
+      "moegirl": 11,
+      "gamekee": 2
+    }
+  },
+  "events": {
+    "total": 51,
+    "translated": 28,
+    "not_found": 23,
+    "coverage": "54.9%",
+    "by_source": {
+      "game_data_tw": 0,
+      "moegirl": 0,
+      "gamekee": 27,
+      "bilibili_wiki": 1
+    }
+  },
+  "characters": {
+    "total": 240,
+    "translated": 240,
+    "not_found": 0,
+    "coverage": "100.0%",
+    "by_source": {
+      "game_data_tw": 0,
+      "moegirl": 240,
+      "gamekee": 0
+    }
+  },
+  "scenario_characters": {
+    "total": 968,
+    "translated": 964,
+    "not_found": 4,
+    "coverage": "99.6%",
+    "by_source": {
+      "game_data_tw": 901,
+      "moegirl": 63,
+      "gamekee": 0
+    }
+  }
+}

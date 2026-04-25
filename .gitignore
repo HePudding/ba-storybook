@@ -1,7 +1,11 @@
 raw-data/
+raw-data-global/
 ba-json
 ba-json/
+ba-json-global
+ba-json-global/
 __pycache__/
 *.pyc
 .DS_Store
 /tmp/
+profiles/

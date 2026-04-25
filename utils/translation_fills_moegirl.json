@@ -1,0 +1,1745 @@
+{
+  "schools": {
+    "赤冬連邦学園": {
+      "cn": "赤冬联邦学园",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%B5%A4%E5%86%AC%E8%81%94%E9%82%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "SRT特殊学園": {
+      "cn": "SRT特殊学园",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/SRT%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%9B%AD"
+    },
+    "ハイランダー鉄道学園": {
+      "cn": "海兰德铁道学园",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "野狩高等学校": {
+      "cn": "狂猎艺术学园",
+      "source": "moegirl",
+      "url": "https://dic.pixiv.net/en/a/Wildhunt%20Art%20Academy"
+    }
+  },
+  "clubs": {
+    "便利屋68": {
+      "cn": "便利屋68",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "ヴェリタス": {
+      "cn": "贝里塔斯",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "風紀委員会": {
+      "cn": "风纪委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "正義実現委員会": {
+      "cn": "正义实现委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "放課後スイーツ部": {
+      "cn": "放学后的甜点部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "忍術研究部": {
+      "cn": "忍术研究部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "トレーニングクラブ": {
+      "cn": "训练部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "セミナー": {
+      "cn": "研讨会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "対策委員会": {
+      "cn": "对策委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E9%98%BF%E6%8B%9C%E5%A4%9A%E6%96%AF%E9%AB%98%E4%B8%AD"
+    },
+    "未所属": {
+      "cn": "无所属",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "梅華園": {
+      "cn": "梅花园",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "救護騎士団": {
+      "cn": "救护骑士团",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "祭り事務局": {
+      "cn": "节庆运营委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "補習授業部": {
+      "cn": "补课部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "美食研究会": {
+      "cn": "美食研究会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "温泉開発部": {
+      "cn": "温泉开发部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "赤冬事務局": {
+      "cn": "赤冬事务局",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%B5%A4%E5%86%AC%E8%81%94%E9%82%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "RABBIT小隊": {
+      "cn": "RABBIT小队",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/SRT%E7%89%B9%E6%AE%8A%E5%AD%A6%E5%9B%AD"
+    },
+    "エンジニア部": {
+      "cn": "工程师部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "パンデモニウムソサエティ": {
+      "cn": "万魔殿",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "2年27組": {
+      "cn": "227号特别班",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%B5%A4%E5%86%AC%E8%81%94%E9%82%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "シスターフッド": {
+      "cn": "修女会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "古書研究会": {
+      "cn": "图书委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "アリウススクワッド": {
+      "cn": "阿里乌斯特殊小队",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E9%98%BF%E9%87%8C%E4%B9%8C%E6%96%AF%E5%88%86%E6%A0%A1"
+    },
+    "給食部": {
+      "cn": "供给部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "アビドス生徒会": {
+      "cn": "阿拜多斯学生会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E9%98%BF%E6%8B%9C%E5%A4%9A%E6%96%AF%E9%AB%98%E4%B8%AD"
+    },
+    "玄武商店街": {
+      "cn": "玄武商会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "玄龍門": {
+      "cn": "玄龙门",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "百花繚乱": {
+      "cn": "百花缭乱",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "ゲヘナ在籍": {
+      "cn": "格黑娜在籍",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行在籍": {
+      "cn": "百鬼夜行在籍",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "山海経在籍": {
+      "cn": "山海经在籍",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "知識解放戦線": {
+      "cn": "知识解放前线",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%B5%A4%E5%86%AC%E8%81%94%E9%82%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "労働党": {
+      "cn": "劳务部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%B5%A4%E5%86%AC%E8%81%94%E9%82%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "オカルト研究部": {
+      "cn": "神秘学研究部",
+      "source": "moegirl",
+      "url": "https://dic.pixiv.net/en/a/Wildhunt%20Art%20Academy"
+    },
+    "陰陽部": {
+      "cn": "阴阳部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "シャイニングスパークル研究会": {
+      "cn": "闪闪发光部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%A0%BC%E9%BB%91%E5%A8%9C%E5%AD%A6%E5%9B%AD"
+    },
+    "修行部": {
+      "cn": "修行部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "ティーパーティー": {
+      "cn": "茶会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "安全局": {
+      "cn": "生活安全局",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%A5%B3%E6%AD%A6%E7%A5%9E%E8%AD%A6%E5%AF%9F%E5%AD%A6%E5%9B%AD"
+    },
+    "トリニティ風紀委員会": {
+      "cn": "三一风纪委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%B8%89%E4%B8%80%E7%BB%BC%E5%90%88%E5%AD%A6%E5%9B%AD"
+    }
+  },
+  "characters": {
+    "アル": {
+      "cn": "亚瑠",
+      "cn_full": "陆八魔亚瑠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "エイミ": {
+      "cn": "英美",
+      "cn_full": "和泉元英美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハルナ": {
+      "cn": "晴奈",
+      "cn_full": "黑馆晴奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒフミ": {
+      "cn": "日富美",
+      "cn_full": "阿慈谷日富美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒナ": {
+      "cn": "阳奈",
+      "cn_full": "空崎阳奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ホシノ": {
+      "cn": "星野",
+      "cn_full": "小鸟游星野",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イオリ": {
+      "cn": "伊织",
+      "cn_full": "银镜伊织",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マキ": {
+      "cn": "真纪",
+      "cn_full": "小涂真纪",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ネル": {
+      "cn": "宁瑠",
+      "cn_full": "美甘宁瑠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イズミ": {
+      "cn": "泉",
+      "cn_full": "狮子堂泉",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シロコ": {
+      "cn": "白子",
+      "cn_full": "砂狼白子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シュン": {
+      "cn": "旬",
+      "cn_full": "春原旬",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "スミレ": {
+      "cn": "堇",
+      "cn_full": "乙花堇",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ツルギ": {
+      "cn": "弦生",
+      "cn_full": "剑先弦生",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イズナ": {
+      "cn": "伊树菜",
+      "cn_full": "久田伊树菜",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アリス": {
+      "cn": "爱丽丝",
+      "cn_full": "天童爱丽丝",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミドリ": {
+      "cn": "绿",
+      "cn_full": "才羽绿",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チェリノ": {
+      "cn": "洁莉诺",
+      "cn_full": "连河洁莉诺",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ユズ": {
+      "cn": "柚子",
+      "cn_full": "花冈柚子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アズサ": {
+      "cn": "梓",
+      "cn_full": "白洲梓",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コハル": {
+      "cn": "小春",
+      "cn_full": "下江小春",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アズサ（水着）": {
+      "cn": "梓（泳装）",
+      "cn_full": "白洲梓（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒナ（水着）": {
+      "cn": "阳奈（泳装）",
+      "cn_full": "空崎阳奈（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イオリ（水着）": {
+      "cn": "伊织（泳装）",
+      "cn_full": "银镜伊织（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シロコ（ライディング）": {
+      "cn": "白子（单车）",
+      "cn_full": "砂狼白子（单车）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シュン（幼女）": {
+      "cn": "旬（幼女）",
+      "cn_full": "春原旬（幼女）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ネル（バニーガール）": {
+      "cn": "宁瑠（兔女郎）",
+      "cn_full": "美甘宁瑠（兔女郎）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カリン（バニーガール）": {
+      "cn": "花凛（兔女郎）",
+      "cn_full": "角楯花凛（兔女郎）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アスナ（バニーガール）": {
+      "cn": "明日奈（兔女郎）",
+      "cn_full": "一之濑明日奈（兔女郎）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ナツ": {
+      "cn": "夏",
+      "cn_full": "柚鸟夏",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チナツ（温泉）": {
+      "cn": "千夏（温泉）",
+      "cn_full": "火宫千夏（温泉）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アル（正月）": {
+      "cn": "亚瑠（正月）",
+      "cn_full": "陆八魔亚瑠（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ムツキ（正月）": {
+      "cn": "无月（正月）",
+      "cn_full": "浅黄无月（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ワカモ": {
+      "cn": "若藻",
+      "cn_full": "狐坂若藻",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミモリ": {
+      "cn": "三森",
+      "cn_full": "水羽三森",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ウイ": {
+      "cn": "忧",
+      "cn_full": "古关忧",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒナタ": {
+      "cn": "日向",
+      "cn_full": "若叶日向",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マリナ": {
+      "cn": "玛丽娜",
+      "cn_full": "池仓玛丽娜",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミヤコ": {
+      "cn": "宫子",
+      "cn_full": "月雪宫子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミユ": {
+      "cn": "美游",
+      "cn_full": "霞泽美游",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ツクヨ": {
+      "cn": "月夜",
+      "cn_full": "大野月夜",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミサキ": {
+      "cn": "美咲",
+      "cn_full": "戒野美咲",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アツコ": {
+      "cn": "亚津子",
+      "cn_full": "秤亚津子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ワカモ（水着）": {
+      "cn": "若藻（泳装）",
+      "cn_full": "狐坂若藻（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ノノミ（水着）": {
+      "cn": "野乃美（泳装）",
+      "cn_full": "十六夜野乃美（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ホシノ（水着）": {
+      "cn": "星野（泳装）",
+      "cn_full": "小鸟游星野（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イズナ（水着）": {
+      "cn": "伊树菜（泳装）",
+      "cn_full": "久田伊树菜（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チセ（水着）": {
+      "cn": "知世（泳装）",
+      "cn_full": "和乐知世（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サオリ": {
+      "cn": "纱织",
+      "cn_full": "锭前纱织",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カズサ": {
+      "cn": "千纱",
+      "cn_full": "杏山千纱",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ココナ": {
+      "cn": "心菜",
+      "cn_full": "春原心菜",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ウタハ（応援団）": {
+      "cn": "咏叶（应援团）",
+      "cn_full": "白石咏叶（应援团）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ノア": {
+      "cn": "乃爱",
+      "cn_full": "生盐乃爱",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ユウカ（体操服）": {
+      "cn": "优香（体育服）",
+      "cn_full": "早濑优香（体育服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マリー（体操服）": {
+      "cn": "玛丽（体育服）",
+      "cn_full": "伊落玛丽（体育服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シグレ": {
+      "cn": "时雨",
+      "cn_full": "间宵时雨",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "セリナ（クリスマス）": {
+      "cn": "芹奈（圣诞节）",
+      "cn_full": "鹫见芹奈（圣诞节）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハルナ（正月）": {
+      "cn": "晴奈（正月）",
+      "cn_full": "黑馆晴奈（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミネ": {
+      "cn": "美弥",
+      "cn_full": "苍森美弥",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミカ": {
+      "cn": "弥香",
+      "cn_full": "圣园弥香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "メグ": {
+      "cn": "惠",
+      "cn_full": "下仓惠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サクラコ": {
+      "cn": "樱子",
+      "cn_full": "歌住樱子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "トキ": {
+      "cn": "时",
+      "cn_full": "飞鸟马时",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コユキ": {
+      "cn": "小雪",
+      "cn_full": "黑崎小雪",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カヨコ（正月）": {
+      "cn": "佳世子（正月）",
+      "cn_full": "鬼方佳世子（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カホ": {
+      "cn": "嘉穗",
+      "cn_full": "桑上嘉穗",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アリス（メイド）": {
+      "cn": "爱丽丝（女仆）",
+      "cn_full": "天童爱丽丝（女仆）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "トキ（バニーガール）": {
+      "cn": "时（兔女郎）",
+      "cn_full": "飞鸟马时（兔女郎）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "レイサ": {
+      "cn": "玲纱",
+      "cn_full": "宇泽玲纱",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ルミ": {
+      "cn": "瑠美",
+      "cn_full": "朱城瑠美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミナ": {
+      "cn": "弥奈",
+      "cn_full": "近卫弥奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミヤコ（水着）": {
+      "cn": "宫子（泳装）",
+      "cn_full": "月雪宫子（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サキ（水着）": {
+      "cn": "咲（泳装）",
+      "cn_full": "空井咲（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ウイ（水着）": {
+      "cn": "忧（泳装）",
+      "cn_full": "古关忧（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハナコ（水着）": {
+      "cn": "花子（泳装）",
+      "cn_full": "浦和花子（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "メル": {
+      "cn": "爱瑠",
+      "cn_full": "姬木爱瑠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コトリ（応援団）": {
+      "cn": "亚都梨（应援团）",
+      "cn_full": "丰见亚都梨（应援团）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イチカ": {
+      "cn": "一花",
+      "cn_full": "仲正一花",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カスミ": {
+      "cn": "霞",
+      "cn_full": "鬼怒川霞",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "御坂美琴": {
+      "cn": "御坂美琴",
+      "cn_full": "御坂美琴",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "食蜂操祈": {
+      "cn": "食蜂操祈",
+      "cn_full": "食蜂操祈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ユカリ": {
+      "cn": "紫",
+      "cn_full": "勘解由小路紫",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "レンゲ": {
+      "cn": "莲华",
+      "cn_full": "不破莲华",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "キキョウ": {
+      "cn": "桔梗",
+      "cn_full": "桐生桔梗",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コタマ（キャンプ）": {
+      "cn": "小玉（露营）",
+      "cn_full": "音濑小玉（露营）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハレ（キャンプ）": {
+      "cn": "晴（露营）",
+      "cn_full": "小钩晴（露营）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒナ（ドレス）": {
+      "cn": "阳奈（礼服）",
+      "cn_full": "空崎阳奈（礼服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アコ（ドレス）": {
+      "cn": "亚子（礼服）",
+      "cn_full": "天雨亚子（礼服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カヨコ（ドレス）": {
+      "cn": "佳世子（礼服）",
+      "cn_full": "鬼方佳世子（礼服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アル（ドレス）": {
+      "cn": "亚瑠（礼服）",
+      "cn_full": "陆八魔亚瑠（礼服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ウミカ": {
+      "cn": "海香",
+      "cn_full": "里滨海香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アカネ": {
+      "cn": "朱音",
+      "cn_full": "室笠朱音",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チセ": {
+      "cn": "知世",
+      "cn_full": "和乐知世",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アカリ": {
+      "cn": "亚伽里",
+      "cn_full": "鳄渊亚伽里",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハスミ": {
+      "cn": "莲实",
+      "cn_full": "羽川莲实",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ノノミ": {
+      "cn": "野乃美",
+      "cn_full": "十六夜野乃美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カヨコ": {
+      "cn": "佳世子",
+      "cn_full": "鬼方佳世子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ムツキ": {
+      "cn": "无月",
+      "cn_full": "浅黄无月",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ジュンコ": {
+      "cn": "淳子",
+      "cn_full": "赤司淳子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "セリカ": {
+      "cn": "茜香",
+      "cn_full": "黑见茜香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ツバキ": {
+      "cn": "椿",
+      "cn_full": "春日椿",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ユウカ": {
+      "cn": "优香",
+      "cn_full": "早濑优香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "モモイ": {
+      "cn": "桃井",
+      "cn_full": "才羽桃井",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "キリノ": {
+      "cn": "桐乃",
+      "cn_full": "中务桐乃",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "モミジ": {
+      "cn": "红叶",
+      "cn_full": "秋泉红叶",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハルカ": {
+      "cn": "遥香",
+      "cn_full": "伊草遥香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アスナ": {
+      "cn": "明日奈",
+      "cn_full": "一之濑明日奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コトリ": {
+      "cn": "亚都梨",
+      "cn_full": "丰见亚都梨",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "スズミ": {
+      "cn": "铃美",
+      "cn_full": "守月铃美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "フィーナ": {
+      "cn": "菲娜",
+      "cn_full": "朝比奈菲娜",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ツルギ（水着）": {
+      "cn": "弦生（泳装）",
+      "cn_full": "剑先弦生（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イズミ（水着）": {
+      "cn": "泉（泳装）",
+      "cn_full": "狮子堂泉（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "トモエ": {
+      "cn": "智惠",
+      "cn_full": "佐城智惠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "フブキ": {
+      "cn": "吹雪",
+      "cn_full": "合欢垣吹雪",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミチル": {
+      "cn": "三千留",
+      "cn_full": "千鸟三千留",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒビキ（応援団）": {
+      "cn": "响（应援团）",
+      "cn_full": "猫冢响（应援团）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハスミ（体操服）": {
+      "cn": "莲实（体育服）",
+      "cn_full": "羽川莲实（体育服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ジュンコ（正月）": {
+      "cn": "淳子（正月）",
+      "cn_full": "赤司淳子（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コハル（水着）": {
+      "cn": "小春（泳装）",
+      "cn_full": "下江小春（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イブキ": {
+      "cn": "伊吹",
+      "cn_full": "丹花伊吹",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒビキ": {
+      "cn": "响",
+      "cn_full": "猫冢响",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カリン": {
+      "cn": "花凛",
+      "cn_full": "角楯花凛",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サヤ": {
+      "cn": "沙耶",
+      "cn_full": "药子沙耶",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マシロ": {
+      "cn": "麻白",
+      "cn_full": "静山麻白",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マシロ（水着）": {
+      "cn": "麻白（泳装）",
+      "cn_full": "静山麻白（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒフミ（水着）": {
+      "cn": "日富美（泳装）",
+      "cn_full": "阿慈谷日富美（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サヤ（私服）": {
+      "cn": "沙耶（私服）",
+      "cn_full": "药子沙耶（私服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "初音ミク": {
+      "cn": "初音未来",
+      "cn_full": "初音未来",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アコ": {
+      "cn": "亚子",
+      "cn_full": "天雨亚子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チェリノ（温泉）": {
+      "cn": "洁莉诺（温泉）",
+      "cn_full": "连河洁莉诺（温泉）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ノドカ（温泉）": {
+      "cn": "和香（温泉）",
+      "cn_full": "天见和香（温泉）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "セリカ（正月）": {
+      "cn": "茜香（正月）",
+      "cn_full": "黑见茜香（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "セナ": {
+      "cn": "濑奈",
+      "cn_full": "冰室濑奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チヒロ": {
+      "cn": "千寻",
+      "cn_full": "各务千寻",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "サキ": {
+      "cn": "咲",
+      "cn_full": "空井咲",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カエデ": {
+      "cn": "枫",
+      "cn_full": "勇美枫",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "イロハ": {
+      "cn": "伊吕波",
+      "cn_full": "枣伊吕波",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒヨリ": {
+      "cn": "日和",
+      "cn_full": "槌永日和",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "モエ": {
+      "cn": "萌",
+      "cn_full": "风仓萌",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アカネ（バニーガール）": {
+      "cn": "朱音（兔女郎）",
+      "cn_full": "室笠朱音（兔女郎）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒマリ": {
+      "cn": "日鞠",
+      "cn_full": "明星日鞠",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハナエ（クリスマス）": {
+      "cn": "花绘（圣诞节）",
+      "cn_full": "朝颜花绘（圣诞节）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "フウカ（正月）": {
+      "cn": "风华（正月）",
+      "cn_full": "爱清风华（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "カンナ": {
+      "cn": "神奈",
+      "cn_full": "尾刃神奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ナギサ": {
+      "cn": "渚",
+      "cn_full": "桐藤渚",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハルカ（正月）": {
+      "cn": "遥香（正月）",
+      "cn_full": "伊草遥香（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミノリ": {
+      "cn": "实里",
+      "cn_full": "安守实里",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シロコ（水着）": {
+      "cn": "白子（泳装）",
+      "cn_full": "砂狼白子（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヒナタ（水着）": {
+      "cn": "日向（泳装）",
+      "cn_full": "若叶日向（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミモリ（水着）": {
+      "cn": "三森（泳装）",
+      "cn_full": "水羽三森（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハルナ（体操服）": {
+      "cn": "晴奈（体育服）",
+      "cn_full": "黑馆晴奈（体育服）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シグレ（温泉）": {
+      "cn": "时雨（温泉）",
+      "cn_full": "间宵时雨（温泉）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "エイミ（水着）": {
+      "cn": "英美（泳装）",
+      "cn_full": "和泉元英美（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マコト": {
+      "cn": "真琴",
+      "cn_full": "羽沼真琴",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アカリ（正月）": {
+      "cn": "亚伽里（正月）",
+      "cn_full": "鳄渊亚伽里（正月）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ツバキ（ガイド）": {
+      "cn": "椿（导游）",
+      "cn_full": "春日椿（导游）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アイリ": {
+      "cn": "爱莉",
+      "cn_full": "栗村爱莉",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "フウカ": {
+      "cn": "风华",
+      "cn_full": "爱清风华",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハナエ": {
+      "cn": "花绘",
+      "cn_full": "朝颜花绘",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハレ": {
+      "cn": "晴",
+      "cn_full": "小钩晴",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ウタハ": {
+      "cn": "咏叶",
+      "cn_full": "白石咏叶",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アヤネ": {
+      "cn": "绫音",
+      "cn_full": "奥空绫音",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シズコ": {
+      "cn": "静子",
+      "cn_full": "河和静子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ハナコ": {
+      "cn": "花子",
+      "cn_full": "浦和花子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "マリー": {
+      "cn": "玛丽",
+      "cn_full": "伊落玛丽",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "チナツ": {
+      "cn": "千夏",
+      "cn_full": "火宫千夏",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "コタマ": {
+      "cn": "小玉",
+      "cn_full": "音濑小玉",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ジュリ": {
+      "cn": "茱莉",
+      "cn_full": "牛牧茱莉",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "セリナ": {
+      "cn": "芹奈",
+      "cn_full": "鹫见芹奈",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シミコ": {
+      "cn": "志美子",
+      "cn_full": "圆堂志美子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヨシミ": {
+      "cn": "喜美",
+      "cn_full": "伊原木喜美",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ノドカ": {
+      "cn": "和香",
+      "cn_full": "天见和香",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "アヤネ（水着）": {
+      "cn": "绫音（泳装）",
+      "cn_full": "奥空绫音（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "シズコ（水着）": {
+      "cn": "静子（泳装）",
+      "cn_full": "河和静子（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ユズ（メイド）": {
+      "cn": "柚子（女仆）",
+      "cn_full": "花冈柚子（女仆）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミユ（水着）": {
+      "cn": "美游（泳装）",
+      "cn_full": "霞泽美游（泳装）",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "佐天涙子": {
+      "cn": "佐天泪子",
+      "cn_full": "佐天泪子",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    }
+  },
+  "scenario_characters": {
+    "ヒマリ|特異現象捜査部": {
+      "cn": "日鞠",
+      "nickname_cn": "特异现象搜查部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ミチル|忍術研究部": {
+      "cn": "三千留",
+      "nickname_cn": "忍术研究部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "ナグサ|百花繚乱紛争調停委員会": {
+      "cn": "名草",
+      "nickname_cn": "百花缭乱纷争调停委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%BE%A1%E6%A3%B1%E5%90%8D%E8%8D%89"
+    },
+    "ユカリ|百花繚乱紛争調停委員会": {
+      "cn": "紫",
+      "nickname_cn": "百花缭乱纷争调停委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8B%98%E8%A7%A3%E7%94%B1%E5%B0%8F%E8%B7%AF%E7%B4%AB"
+    },
+    "ユカリ|": {
+      "cn": "紫",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8B%98%E8%A7%A3%E7%94%B1%E5%B0%8F%E8%B7%AF%E7%B4%AB"
+    },
+    "レンゲ|百花繚乱紛争調停委員会": {
+      "cn": "莲华",
+      "nickname_cn": "百花缭乱纷争调停委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "キキョウ|百花繚乱紛争調停委員会": {
+      "cn": "桔梗",
+      "nickname_cn": "百花缭乱纷争调停委员会",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "御坂美琴|": {
+      "cn": "御坂美琴",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%BE%A1%E5%9D%82%E7%BE%8E%E7%90%B4"
+    },
+    "食蜂操祈|": {
+      "cn": "食蜂操祈",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E9%A3%9F%E8%9C%82%E6%93%8D%E7%A5%88"
+    },
+    "佐天涙子|": {
+      "cn": "佐天泪子",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E4%BD%90%E5%A4%A9%E6%B3%AA%E5%AD%90"
+    },
+    "シュロ|花鳥風月部": {
+      "cn": "棕榈",
+      "nickname_cn": "花鸟风月部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "コクリコ|花鳥風月部": {
+      "cn": "虞美人",
+      "nickname_cn": "花鸟风月部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%99%9E%E7%BE%8E%E4%BA%BA(%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88)"
+    },
+    "アラタ|魑魅一座・路上流": {
+      "cn": "新",
+      "nickname_cn": "魑魅一座·路上流",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E6%96%B0(%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88)"
+    },
+    "魑魅一座A|魑魅一座・路上流": {
+      "cn": "魑魅一座A",
+      "nickname_cn": "魑魅一座·路上流",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "魑魅一座B|魑魅一座・路上流": {
+      "cn": "魑魅一座B",
+      "nickname_cn": "魑魅一座·路上流",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "魑魅一座たち|魑魅一座・路上流": {
+      "cn": "魑魅一座一行",
+      "nickname_cn": "魑魅一座·路上流",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行の生徒A|": {
+      "cn": "百鬼夜行的学生A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行の生徒B|": {
+      "cn": "百鬼夜行的学生B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行の生徒C|": {
+      "cn": "百鬼夜行的学生C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "観光客A|": {
+      "cn": "游客A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "観光客B|": {
+      "cn": "游客B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "観光客C|": {
+      "cn": "游客C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "アルバイトの生徒|": {
+      "cn": "打工的学生",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "村の住民|": {
+      "cn": "村民",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "チンピラA|街の無法者": {
+      "cn": "小混混A",
+      "nickname_cn": "街头无法者",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "チンピラB|街の無法者": {
+      "cn": "小混混B",
+      "nickname_cn": "街头无法者",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "チンピラたち|街の無法者": {
+      "cn": "小混混们",
+      "nickname_cn": "街头无法者",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "お祭り委員|": {
+      "cn": "祭典委员",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "お祭り審査委員|": {
+      "cn": "祭典审查委员",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "使用人|": {
+      "cn": "佣人",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "使用人A|": {
+      "cn": "佣人A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "使用人B|": {
+      "cn": "佣人B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "使用人C|": {
+      "cn": "佣人C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱部員|": {
+      "cn": "百花缭乱部员",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱の部員A|": {
+      "cn": "百花缭乱的部员A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱の部員B|": {
+      "cn": "百花缭乱的部员B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱の部員C|": {
+      "cn": "百花缭乱的部员C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱の部員D|": {
+      "cn": "百花缭乱的部员D",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百花繚乱の部員たち|": {
+      "cn": "百花缭乱的部员们",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "陰陽部の部員A|": {
+      "cn": "阴阳部的部员A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "陰陽部の部員B|": {
+      "cn": "阴阳部的部员B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "陰陽部の部員C|": {
+      "cn": "阴阳部的部员C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "陰陽部の部員たち|": {
+      "cn": "阴阳部的部员们",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員A|クロレラ観察部": {
+      "cn": "百鬼夜行社团部员A",
+      "nickname_cn": "小球藻观察部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員B|クロレラ観察部": {
+      "cn": "百鬼夜行社团部员B",
+      "nickname_cn": "小球藻观察部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員A|将棋部": {
+      "cn": "百鬼夜行社团部员A",
+      "nickname_cn": "将棋部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員B|将棋部": {
+      "cn": "百鬼夜行社团部员B",
+      "nickname_cn": "将棋部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員A|フィットネス落語部": {
+      "cn": "百鬼夜行社团部员A",
+      "nickname_cn": "健身落语部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員B|フィットネス落語部": {
+      "cn": "百鬼夜行社团部员B",
+      "nickname_cn": "健身落语部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員A|かるたバトル部": {
+      "cn": "百鬼夜行社团部员A",
+      "nickname_cn": "歌牌对战部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "百鬼夜行サークル部員B|かるたバトル部": {
+      "cn": "百鬼夜行社团部员B",
+      "nickname_cn": "歌牌对战部",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "商人A|": {
+      "cn": "商人A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "商人B|": {
+      "cn": "商人B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "商人C|": {
+      "cn": "商人C",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "傘屋の店主|": {
+      "cn": "伞店店主",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "工芸品店の店主|": {
+      "cn": "工艺品店店主",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "御坂美琴&食蜂操祈|": {
+      "cn": "御坂美琴&食蜂操祈",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%BE%A1%E5%9D%82%E7%BE%8E%E7%90%B4"
+    },
+    "エンジニア部|": {
+      "cn": "工程师部",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%8D%83%E5%B9%B4%E7%A7%91%E5%AD%A6%E5%AD%A6%E5%9B%AD"
+    },
+    "商店街の住人A|": {
+      "cn": "商店街的居民A",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "商店街の住人B|": {
+      "cn": "商店街的居民B",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "商店街の住人|": {
+      "cn": "商店街的居民",
+      "nickname_cn": "",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%B1%B1%E6%B5%B7%E7%BB%8F%E9%AB%98%E7%BA%A7%E4%B8%AD%E5%AD%A6"
+    },
+    "無貌の形代|百物語": {
+      "cn": "无貌形代",
+      "nickname_cn": "百物语",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    },
+    "幻魎百物語|百物語": {
+      "cn": "幻魉百物语",
+      "nickname_cn": "百物语",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E7%99%BE%E9%AC%BC%E5%A4%9C%E8%A1%8C%E8%81%94%E5%90%88%E5%AD%A6%E5%9B%AD"
+    }
+  },
+  "story_titles": {
+    "総力戦 - 妙鬼黒影": {
+      "cn": "总力战 - 猫鬼·黑影",
+      "source": "moegirl",
+      "url": "https://www.gamekee.com/ba/606696.html"
+    },
+    "Vol.5 百花繚乱編": {
+      "cn": "Vol.5 百花缭乱篇",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85"
+    }
+  },
+  "events": {},
+  "terms": {
+    "モモトーク": {
+      "cn": "MomoTalk",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ヘイロー": {
+      "cn": "光环",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%85%89%E7%8E%AF"
+    },
+    "キヴォトス": {
+      "cn": "基沃托斯",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E5%9F%BA%E6%B2%83%E6%89%98%E6%96%AF"
+    },
+    "ゲマトリア": {
+      "cn": "盖玛特里亚",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E8%AF%91%E5%90%8D%E5%AF%B9%E7%85%A7%E8%A1%A8"
+    },
+    "ブラックスーツ": {
+      "cn": "黑服",
+      "source": "moegirl",
+      "url": "https://mzh.moegirl.org.cn/%E9%BB%91%E8%89%B2%E8%A5%BF%E8%A3%85%E4%BA%BA"
+    },
+    "絆ストーリー": {
+      "cn": "羁绊剧情",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "グループストーリー": {
+      "cn": "社团剧情",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "メインストーリー": {
+      "cn": "主线剧情",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/%E4%B8%BB%E7%BA%BF%E5%89%A7%E6%83%85"
+    },
+    "イベントストーリー": {
+      "cn": "活动剧情",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "ミニストーリー": {
+      "cn": "迷你剧情",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    },
+    "レイド": {
+      "cn": "总力战",
+      "source": "moegirl",
+      "url": "https://zh.moegirl.org.cn/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88"
+    }
+  }
+}

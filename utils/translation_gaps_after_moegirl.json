@@ -1,0 +1,438 @@
+{
+  "schools": [
+    {
+      "jp_full": "常盤学園",
+      "jp_short": "常盤",
+      "code": "Tokiwa"
+    },
+    {
+      "jp_full": "佐官学園",
+      "jp_short": "佐官",
+      "code": "Sakugawa"
+    }
+  ],
+  "clubs": [
+    {
+      "jp": "SPTF",
+      "code": "SPTF"
+    },
+    {
+      "jp": "掩蔽部",
+      "code": "Endanbou"
+    },
+    {
+      "jp": "掃除と洗濯部",
+      "code": "CleanNClearing"
+    },
+    {
+      "jp": "治安維持局",
+      "code": "PublicPeaceBureau"
+    },
+    {
+      "jp": "中央管理局",
+      "code": "CentralControlCenter"
+    },
+    {
+      "jp": "救急医学部",
+      "code": "Emergentology"
+    },
+    {
+      "jp": "物流部",
+      "code": "FreightLogisticsDepartment"
+    }
+  ],
+  "characters": [],
+  "scenario_characters": [
+    {
+      "jp": "ユカリ",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "御坂美琴",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "食蜂操祈",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "佐天涙子",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "アイン",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "ソフ",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "オウル",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行の生徒A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行の生徒B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "観光客C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "アルバイトの生徒",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百鬼夜行の生徒C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "村の住民",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "お祭り委員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "お祭り審査委員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱部員",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商人C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "傘屋の店主",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "工芸品店の店主",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "御坂美琴&食蜂操祈",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "エンジニア部",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "商店街の住人",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "使用人C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員D",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "百花繚乱の部員たち",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員A",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員B",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員C",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "陰陽部の部員たち",
+      "nickname_jp": ""
+    },
+    {
+      "jp": "アイン&ソフ&オウル",
+      "nickname_jp": ""
+    }
+  ],
+  "story_titles": [
+    {
+      "jp": "作り話のうそ",
+      "category": "scenario_title"
+    }
+  ],
+  "events": [
+    {
+      "event_dir": "event_70000",
+      "event_id": "70000"
+    },
+    {
+      "event_dir": "event_80000",
+      "event_id": "80000"
+    },
+    {
+      "event_dir": "event_801",
+      "event_id": "801"
+    },
+    {
+      "event_dir": "event_802",
+      "event_id": "802"
+    },
+    {
+      "event_dir": "event_803",
+      "event_id": "803"
+    },
+    {
+      "event_dir": "event_804",
+      "event_id": "804"
+    },
+    {
+      "event_dir": "event_805",
+      "event_id": "805"
+    },
+    {
+      "event_dir": "event_806",
+      "event_id": "806"
+    },
+    {
+      "event_dir": "event_807",
+      "event_id": "807"
+    },
+    {
+      "event_dir": "event_808",
+      "event_id": "808"
+    },
+    {
+      "event_dir": "event_809",
+      "event_id": "809"
+    },
+    {
+      "event_dir": "event_810",
+      "event_id": "810"
+    },
+    {
+      "event_dir": "event_811",
+      "event_id": "811"
+    },
+    {
+      "event_dir": "event_812",
+      "event_id": "812"
+    },
+    {
+      "event_dir": "event_813",
+      "event_id": "813"
+    },
+    {
+      "event_dir": "event_814",
+      "event_id": "814"
+    },
+    {
+      "event_dir": "event_815",
+      "event_id": "815"
+    },
+    {
+      "event_dir": "event_816",
+      "event_id": "816"
+    },
+    {
+      "event_dir": "event_817",
+      "event_id": "817"
+    },
+    {
+      "event_dir": "event_818",
+      "event_id": "818"
+    },
+    {
+      "event_dir": "event_819",
+      "event_id": "819"
+    },
+    {
+      "event_dir": "event_820",
+      "event_id": "820"
+    },
+    {
+      "event_dir": "event_821",
+      "event_id": "821"
+    },
+    {
+      "event_dir": "event_822",
+      "event_id": "822"
+    },
+    {
+      "event_dir": "event_823",
+      "event_id": "823"
+    },
+    {
+      "event_dir": "event_824",
+      "event_id": "824"
+    },
+    {
+      "event_dir": "event_825",
+      "event_id": "825"
+    },
+    {
+      "event_dir": "event_826",
+      "event_id": "826"
+    },
+    {
+      "event_dir": "event_827",
+      "event_id": "827"
+    },
+    {
+      "event_dir": "event_828",
+      "event_id": "828"
+    },
+    {
+      "event_dir": "event_829",
+      "event_id": "829"
+    },
+    {
+      "event_dir": "event_830",
+      "event_id": "830"
+    },
+    {
+      "event_dir": "event_831",
+      "event_id": "831"
+    },
+    {
+      "event_dir": "event_832",
+      "event_id": "832"
+    },
+    {
+      "event_dir": "event_833",
+      "event_id": "833"
+    },
+    {
+      "event_dir": "event_834",
+      "event_id": "834"
+    },
+    {
+      "event_dir": "event_835",
+      "event_id": "835"
+    },
+    {
+      "event_dir": "event_836",
+      "event_id": "836"
+    },
+    {
+      "event_dir": "event_837",
+      "event_id": "837"
+    },
+    {
+      "event_dir": "event_838",
+      "event_id": "838"
+    },
+    {
+      "event_dir": "event_839",
+      "event_id": "839"
+    },
+    {
+      "event_dir": "event_840",
+      "event_id": "840"
+    },
+    {
+      "event_dir": "event_841",
+      "event_id": "841"
+    },
+    {
+      "event_dir": "event_842",
+      "event_id": "842"
+    },
+    {
+      "event_dir": "event_843",
+      "event_id": "843"
+    },
+    {
+      "event_dir": "event_844",
+      "event_id": "844"
+    },
+    {
+      "event_dir": "event_845",
+      "event_id": "845"
+    },
+    {
+      "event_dir": "event_846",
+      "event_id": "846"
+    },
+    {
+      "event_dir": "event_847",
+      "event_id": "847"
+    },
+    {
+      "event_dir": "event_848",
+      "event_id": "848"
+    },
+    {
+      "event_dir": "event_849",
+      "event_id": "849"
+    }
+  ],
+  "terms": [
+    {
+      "jp": "先生と共に"
+    },
+    {
+      "jp": "カルバノ山"
+    },
+    {
+      "jp": "アトラ・ハシース"
+    }
+  ]
+}

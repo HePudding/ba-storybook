@@ -27,7 +27,7 @@ def collect_stats() -> dict:
 
 
 def build_character_table() -> str:
-    """CharacterId → 日文名 + 学校 + 部活 表格."""
+    """CharacterId -> 日文名 + 学校 + 社团 表格."""
     id_to_name = load_character_id_to_jp_name()
     meta = load_character_meta()
     rows = []
@@ -35,7 +35,7 @@ def build_character_table() -> str:
         name = id_to_name[cid]
         m = meta.get(cid, {})
         rows.append(f"| {cid} | {name} | {m.get('school', '')} | {m.get('club', '')} |")
-    header = "| ID | 名前 | 学校 | 部活 |\n|----|------|------|------|\n"
+    header = "| ID | 名称 | 学校 | 社团 |\n|----|------|------|------|\n"
     return header + "\n".join(rows)
 
 
@@ -43,13 +43,13 @@ def aggregate_errors() -> str:
     """收集各子目录的 _errors.log."""
     lines = []
     for p in sorted(OUT_DIR.glob("*/_errors.log")):
-        lines.append(f"## {p.parent.name}\n")
+        lines.append(f"### {p.parent.name}\n")
         content = p.read_text(encoding="utf-8").strip()
         if content:
             lines.append("```\n" + content + "\n```\n")
         else:
-            lines.append("*（エラーなし）*\n")
-    return "\n".join(lines) if lines else "*（全カテゴリ エラーなし）*\n"
+            lines.append("*（无错误）*\n")
+    return "\n".join(lines) if lines else "*（所有类别无错误）*\n"
 
 
 def main() -> None:
@@ -77,35 +77,35 @@ def main() -> None:
 
     # Build README
     lines = [
-        "# Blue Archive 日本語ストーリー アーカイブ",
+        "# 蔚蓝档案 日语剧情文本存档",
         "",
-        f"**データ取得日**: {DATA_DATE}",
-        f"**生成日時**: {agg['generated_at']}",
-        f"**データソース**: [electricgoat/ba-data @ jp branch](https://github.com/electricgoat/ba-data/tree/jp)",
+        f"**数据获取日期**：{DATA_DATE}",
+        f"**生成时间**：{agg['generated_at']}",
+        f"**数据来源**：[electricgoat/ba-data @ jp 分支](https://github.com/electricgoat/ba-data/tree/jp)",
         "",
-        "## 統計",
+        "## 统计",
         "",
-        f"- 総 Markdown ファイル数: **{total_files:,}**",
-        f"- 総対話行数（シナリオ）: **{total_lines:,}**",
-        f"- 総 MomoTalk メッセージ数: **{total_messages:,}**",
-        f"- 既知エラー数: {total_errors}",
+        f"- Markdown 文件总数：**{total_files:,}**",
+        f"- 剧情对话行数：**{total_lines:,}**",
+        f"- MomoTalk 消息条数：**{total_messages:,}**",
+        f"- 已知错误数：{total_errors}",
         "",
-        "### カテゴリ別",
+        "### 分类统计",
         "",
-        "| カテゴリ | ファイル数 | 対話行数 | エラー |",
-        "|---------|-----------|---------|-------|",
+        "| 类别 | 文件数 | 对话行数 | 错误 |",
+        "|------|--------|---------|------|",
     ]
-    jp_label = {
-        "主線": "主線ストーリー",
-        "グループストーリー": "グループストーリー",
-        "イベント": "イベントストーリー",
-        "絆ストーリー": "絆ストーリー",
-        "ミニストーリー": "ミニストーリー",
+    cn_label = {
+        "主線": "主线故事",
+        "グループストーリー": "社团故事",
+        "イベント": "活动故事",
+        "絆ストーリー": "羁绊故事",
+        "ミニストーリー": "迷你故事",
         "モモトーク": "MomoTalk",
-        "キャラクターデータ": "キャラクターデータ (プロフィール+台詞)",
+        "キャラクターデータ": "角色数据（档案+台词）",
     }
     for dirname, data in stats.items():
-        label = jp_label.get(dirname, dirname)
+        label = cn_label.get(dirname, dirname)
         files = data.get("files", 0)
         cnt = data.get("lines", 0) or data.get("messages", 0)
         errs = data.get("errors", 0)
@@ -113,11 +113,11 @@ def main() -> None:
 
     lines += [
         "",
-        "## ディレクトリ構造",
+        "## 目录结构",
         "",
         "```",
         "ba-stories/",
-        "├── 主線/                  # ヴォリューム→章→話 階層",
+        "├── 主線/                  # 篇→章→话 层级",
         "│   ├── 第0篇_プロローグ/",
         "│   ├── 第1篇_対策委員会編/",
         "│   ├── 第2篇_時計じかけの花のパヴァーヌ/",
@@ -125,50 +125,50 @@ def main() -> None:
         "│   ├── 第4篇_カルバノの兎編/",
         "│   ├── 第5篇_百花繚乱編/",
         "│   └── 最終編/",
-        "├── グループストーリー/       # 部活/クラブ別エピソード",
-        "├── イベント/                # イベント ID ごとに 1 ディレクトリ (51 events)",
-        "├── 絆ストーリー/             # キャラクター別 絆エピソード (167 characters)",
-        "├── ミニストーリー/           # 短編エピソード",
-        "├── モモトーク/              # キャラクターとの SNS 対話",
-        "└── キャラクターデータ/       # プロフィール・台詞・愛用品一覧",
+        "├── グループストーリー/       # 按社团分类的剧情",
+        "├── イベント/                # 按活动 ID 分目录（51 个活动）",
+        "├── 絆ストーリー/             # 按角色分类的羁绊故事（167 名角色）",
+        "├── ミニストーリー/           # 短篇故事",
+        "├── モモトーク/              # 角色 SNS 对话",
+        "└── キャラクターデータ/       # 角色档案、台词、爱用品一览",
         "```",
         "",
-        "## Markdown 仕様",
+        "## Markdown 格式说明",
         "",
-        "各ファイルは YAML frontmatter 付き。本文での表現は：",
+        "每个文件带有 YAML frontmatter。正文格式：",
         "",
-        "- `**話者**: セリフ` — キャラクター対話",
-        "- `*ナレーション*` — 三人称ナレーション",
-        "- `*（話者）セリフ*` — 特定キャラクターのナレーション",
-        "- `*（先生（心の声））セリフ*` — 先生の内面独白",
-        "- `> **先生（選択肢）**: 選項1 / 選項2` — プレイヤーの選択肢",
-        "- `**【場所】**` — 場面切り替え",
+        "- `**说话人**: 台词` — 角色对话",
+        "- `*旁白*` — 第三人称旁白",
+        "- `*（说话人）台词*` — 特定角色的旁白",
+        "- `*（先生（内心独白））台词*` — 先生的心理活动",
+        "- `> **先生（选择肢）**: 选项1 / 选项2` — 玩家选择",
+        "- `**【地点】**` — 场景切换",
         "",
-        "Ruby 表記は `漢字（かな）` に展開。原文の `[FF6666]...[-]` などの色タグは除去。",
+        "Ruby 标记展开为 `漢字（かな）` 形式。原文中的颜色标签 `[FF6666]...[-]` 已移除。",
         "",
-        "## 既知の不完全性",
+        "## 已知不完整项",
         "",
-        "- 主線 第1篇第3章 (Vol1 Ch3) : ScenarioMode に ID 記載があるが ScenarioScript 側に対応スクリプトなし。8 話分が空。",
-        "- イベントタイトル: ローカライズされた日本語名がデータ内に存在せず、`event_<EventContentId>` の数値キーで表示。",
-        "- グループストーリー のバケット名は `club_<volume>_<chapter>` 形式（実際の社団名は各ファイル内のキャラクター一覧から推測）。",
-        "- 一部の GroupId で ScriptKr が純粋な指令のみ（TextJp 空）の場合はスキップ。",
+        "- 主线第 1 篇第 3 章（Vol1 Ch3）：ScenarioMode 中有 ID 记录，但 ScenarioScript 中无对应脚本，8 话为空。",
+        "- 活动标题：本地化的日语名不在数据中，以 `event_<EventContentId>` 数字键显示。",
+        "- 社团故事的分组名为 `club_<volume>_<chapter>` 格式（实际社团名从各文件内角色列表推断）。",
+        "- 部分 GroupId 的 ScriptKr 仅含纯指令（TextJp 为空），已跳过。",
         "",
-        "## 角色名一覧",
+        "## 角色名一览",
         "",
         "<details>",
-        "<summary>244 キャラクターの ID ↔ 名前対応表 (クリックで展開)</summary>",
+        "<summary>244 名角色 ID ↔ 名称对照表（点击展开）</summary>",
         "",
         build_character_table(),
         "",
         "</details>",
         "",
-        "## エラーログ (カテゴリ別)",
+        "## 错误日志（按类别）",
         "",
         aggregate_errors(),
         "",
         "---",
         "",
-        "*本データは Yostar Japan 版 Blue Archive の精翻訳 (Japanese Yostar translation) に基づく。データ抽出パイプラインは `utils/` 参照。*",
+        "*本数据基于 Yostar Japan 版 Blue Archive 的精翻译（Japanese Yostar translation）。数据提取管线见 `utils/`。*",
     ]
 
     readme = "\n".join(lines) + "\n"
